@@ -1,0 +1,15 @@
+.playwright-cli/
+.taste-skill/
+fonts-work/
+qa-browser.js
+
+/dist/
+/node_modules/
+.env
+.env.local
+.env.*
+!.env.example
+node_modules/
+.vercel/
+.wrangler/
+/public/

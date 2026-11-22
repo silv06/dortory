@@ -1,0 +1,8 @@
+{
+  "name": "dortory",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node scripts/build.mjs" },
+  "engines": { "node": "22.x" },
+  "dependencies": { "jose": "6.2.17" }
+}

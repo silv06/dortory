@@ -1,0 +1,10 @@
+import { cp, mkdir } from "node:fs/promises";
+import { resolve } from "node:path";
+const destination = process.argv[2];
+if (!destination) throw new Error("Pass an explicit Vercel staging directory");
+const target = resolve(destination);
+if (target === resolve(".") || target.startsWith(resolve("site") + "/")) throw new Error("Choose a separate staging directory");
+await mkdir(target, { recursive: true });
+await cp("deployment/vercel", target, { recursive: true });
+await cp("site", resolve(target, "site"), { recursive: true });
+console.log("Prepared Vercel application from the versioned source");

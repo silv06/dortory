@@ -1,0 +1,3647 @@
+{
+  "as_of": "2026-11-18",
+  "sources": {
+    "monthly": {
+      "id": "monthly",
+      "title": "월별 등록외국인 시군구별 거주 현황",
+      "publisher": "법무부",
+      "date": "2026-09-30",
+      "url": "https://www.data.go.kr/data/15100022/fileData.do",
+      "kind": "data",
+      "original": "https://www.data.go.kr/data/15100022/fileData.do",
+      "sha256": "8d6e48bb6d9697f2cee268cf8726cf8248c3a6bf683389bc457883320b2267d1",
+      "filename": "monthly-residents.csv"
+    },
+    "regions": {
+      "id": "regions",
+      "title": "등록외국인 읍면동별·연령별 현황",
+      "publisher": "법무부",
+      "date": "2026-09-30",
+      "url": "https://immigration.go.kr/bbs/immigration/227/611546/artclView.do",
+      "kind": "data",
+      "original": "https://www.immigration.go.kr/bbs/immigration/227/500927/download.do",
+      "sha256": "58562409dc4263c6f4bce8d416d231e5d37248346ab7c0a206a8f53edbc72907",
+      "filename": "regions-202609.xlsx"
+    },
+    "visa": {
+      "id": "visa",
+      "title": "등록외국인 시군구별 체류자격 대분류",
+      "publisher": "법무부",
+      "date": "2026-09-30",
+      "url": "https://immigration.go.kr/bbs/immigration/227/611546/artclView.do",
+      "kind": "data",
+      "original": "https://www.immigration.go.kr/bbs/immigration/227/500925/download.do",
+      "sha256": "e83b85e0de1d5de9280c9a4d34769c1c967a9c20646e898f8884a29556082830",
+      "filename": "visa-202609.xlsx"
+    },
+    "nationality": {
+      "id": "nationality",
+      "title": "등록외국인 시군구별·국적별 현황",
+      "publisher": "법무부",
+      "date": "2026-09-30",
+      "url": "https://immigration.go.kr/bbs/immigration/227/611546/artclView.do",
+      "kind": "data",
+      "original": "https://www.immigration.go.kr/bbs/immigration/227/500923/download.do",
+      "sha256": "344dab4fa7d5172d83fe65218f88d207786702f5711d68aeabe26e9215a21cb3",
+      "filename": "nationality-202609.xlsx"
+    },
+    "apartments": {
+      "id": "apartments",
+      "title": "서천군 아파트 현황",
+      "publisher": "충청남도 서천군",
+      "date": "2026-07-31",
+      "url": "https://www.data.go.kr/data/15080855/fileData.do",
+      "kind": "data",
+      "original": "https://www.data.go.kr/data/15080855/fileData.do",
+      "sha256": "1b8beb9208ad8028b2c6dc3e726e3ccd1fba2cc51d644c2cd7e10d69bebdce48",
+      "filename": "apartments.csv"
+    },
+    "businesses": {
+      "id": "businesses",
+      "title": "서천군 기업체 현황",
+      "publisher": "충청남도 서천군",
+      "date": "2025-07-12",
+      "url": "https://www.data.go.kr/data/15116546/fileData.do",
+      "kind": "data",
+      "original": "https://www.data.go.kr/data/15116546/fileData.do",
+      "sha256": "8515c0bb7810b3f1bef02eadc8dcc8139dca316b73b3009554ee457b2af2a59f",
+      "filename": "businesses.csv"
+    },
+    "vacant-study": {
+      "id": "vacant-study",
+      "title": "충남 빈집 실태 변화와 향후 정비 방향",
+      "publisher": "충남연구원",
+      "date": "2024",
+      "url": "https://www.cni.re.kr/main/contents/report/down?addType=9&docId=1025E10010&gcd=BB0000003460&projectType=15&seq=1",
+      "kind": "data",
+      "original": "https://www.cni.re.kr/main/contents/report/down?addType=9&docId=1025E10010&gcd=BB0000003460&projectType=15&seq=1",
+      "sha256": "4b350bc4d2bef1a11e1645033c77353b7771e6c9842812d62783678062ee0c2a",
+      "filename": "blank-homes-report.pdf"
+    },
+    "vacant-bank": {
+      "id": "vacant-bank",
+      "title": "그린대로 농촌 빈집은행 거래 목록",
+      "publisher": "농림축산식품부·한국농어촌공사",
+      "date": "2026-11-18",
+      "url": "https://www.greendaero.go.kr/svc/rfph/cpif/front/vacantlist.do",
+      "kind": "data",
+      "original": "https://www.greendaero.go.kr/svc/rfph/cpif/front/vacantlist.do",
+      "sha256": "b32c4afa250f61ed294e0c185c9d1b3333238290e4608f3c127cf42aaca233b4",
+      "filename": "vacant-bank.json"
+    },
+    "building": {
+      "id": "building",
+      "title": "건축HUB 건축물대장정보",
+      "publisher": "국토교통부",
+      "date": "2026-11-18",
+      "url": "https://www.data.go.kr/data/15134735/openapi.do",
+      "kind": "reference"
+    },
+    "transit": {
+      "id": "transit",
+      "title": "서천군 교통정보 조회 서비스",
+      "publisher": "충청남도 서천군",
+      "date": "2026-11-18",
+      "url": "https://www.data.go.kr/data/15108124/openapi.do",
+      "kind": "reference"
+    },
+    "rent": {
+      "id": "rent",
+      "title": "단독·다가구 전월세 실거래가",
+      "publisher": "국토교통부",
+      "date": "2026-11-18",
+      "url": "https://www.data.go.kr/data/15126472/openapi.do",
+      "kind": "reference"
+    },
+    "change-use": {
+      "id": "change-use",
+      "title": "건축·대수선·용도변경(변경)신고서",
+      "publisher": "국가법령정보센터",
+      "date": "2024-07-01",
+      "url": "https://www.law.go.kr/flDownload.do?bylClsCd=110202&flSeq=153373137&gubun=",
+      "kind": "form",
+      "original": "https://www.law.go.kr/flDownload.do?bylClsCd=110202&flSeq=153373137&gubun=",
+      "sha256": "10cf30b0222633977b83030bcaa1fa76e3d25f114bee02f0585f0f9cd0d27971",
+      "filename": "change-use.pdf"
+    },
+    "law36": {
+      "id": "law36",
+      "title": "출입국관리법 제36조 체류지 변경의 신고",
+      "publisher": "국가법령정보센터",
+      "date": "2026-10-02",
+      "url": "https://www.law.go.kr/법령/출입국관리법/제36조",
+      "kind": "rule",
+      "original": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261002&lsiSeq=290729",
+      "sha256": "1da30bb69618fce0be259a672eaec7b7d8faefc1a36553ac396d9bf2b59544b1",
+      "filename": "act20261002.html"
+    },
+    "rule49": {
+      "id": "rule49",
+      "title": "출입국관리법 시행규칙 제49조의3",
+      "publisher": "국가법령정보센터",
+      "date": "2026-10-23",
+      "url": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261023&lsiSeq=291289",
+      "kind": "rule",
+      "original": "https://www.law.go.kr/LSW/lsInfoR.do?ancYnChk=0&chrClsCd=010202&efYd=20261023&lsiSeq=291289",
+      "sha256": "bf19ceb7f6fd03b8638106164be643a9d6ffdc6dc8cfab95498fac6c1e83a3ee",
+      "filename": "rule20261023.html"
+    },
+    "gov24": {
+      "id": "gov24",
+      "title": "정부24 외국인 체류지변경신고",
+      "publisher": "정부24·법무부",
+      "date": "2026-06-29",
+      "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000026",
+      "kind": "rule",
+      "original": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12700000026",
+      "sha256": "bca8edd872c53e02f14c0ab737165cc0fd178d2ff9e30813c6c83e3c2a5f2310",
+      "filename": "gov24-address.html"
+    },
+    "form34vi": {
+      "id": "form34vi",
+      "title": "체류지 변경신고서 한·베 병기",
+      "publisher": "국가법령정보센터",
+      "date": "2023-12-14",
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170813579",
+      "kind": "form",
+      "original": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170813579",
+      "sha256": "59ee3dbc9377024f5000fe55459fb9d93dff280311e4cade6dd57b4374dd9766",
+      "filename": "change-address-vi.pdf"
+    },
+    "form34": {
+      "id": "form34",
+      "title": "통합신청서(신고서) 별지 제34호",
+      "publisher": "하이코리아",
+      "date": "2022-04-12",
+      "url": "https://www.hikorea.go.kr/board/BoardApplicationListR.pt",
+      "kind": "form",
+      "original": "https://www.hikorea.go.kr/board/BoardApplicationListR.pt",
+      "sha256": "07a9c116b84e60807e161226e10c665de33eb75051bfd30e61653875655b11d7",
+      "filename": "integrated-application.pdf"
+    },
+    "lease-ko": {
+      "id": "lease-ko",
+      "title": "주택임대차 표준계약서",
+      "publisher": "법무부",
+      "date": "2023-10-06",
+      "url": "https://www.moj.go.kr/bbs/moj/118/575868/artclView.do",
+      "kind": "form",
+      "original": "https://www.moj.go.kr/sites/moj/download/20231006_01.pdf",
+      "sha256": "9b514b8497bd2cde78969a1111718b1aea2bd9911c49710d7ac676e0683468d5",
+      "filename": "lease-ko.pdf"
+    },
+    "lease-vi": {
+      "id": "lease-vi",
+      "title": "주택임대차 표준계약서 베트남어 번역본",
+      "publisher": "법무부",
+      "date": "2026-03-10",
+      "url": "https://www.moj.go.kr/bbs/moj/118/604192/artclView.do",
+      "kind": "form",
+      "original": "https://www.moj.go.kr/bbs/moj/118/491747/download.do",
+      "sha256": "7adcbda3408933e0102ec947ca2b3856ea608cd856f66ed26e8a4f30b372f3bc",
+      "filename": "lease-vi.pdf"
+    },
+    "stay": {
+      "id": "stay",
+      "title": "거주·숙소제공확인서",
+      "publisher": "하이코리아",
+      "date": "2024-05",
+      "url": "https://www.hikorea.go.kr/board/BoardApplicationListR.pt",
+      "kind": "form",
+      "original": "https://www.hikorea.go.kr/board/BoardApplicationListR.pt",
+      "sha256": "b49a3d6b4aad93974069d0e4fdbbb74d80149d9e31e34caad3383b3a615aed75",
+      "filename": "accommodation.pdf"
+    },
+    "dorm": {
+      "id": "dorm",
+      "title": "서천군 농공단지 근로자 기숙사 설치 및 운영 조례",
+      "publisher": "서천군",
+      "date": "2020-09-29",
+      "url": "https://www.elis.go.kr/allalr/selectAlrBdtOne?alrNo=44770138392009&histNo=001",
+      "kind": "rule",
+      "original": "https://www.elis.go.kr/allalr/selectAlrBdtOne?alrNo=44770138392009&histNo=001",
+      "sha256": "17dfd2f99d5fae6e868043da06a254b700b06bb334449baccee5616a9c990eaa",
+      "filename": "dorm-ordinance.html"
+    }
+  },
+  "chunks": [
+    {
+      "id": "monthly-202201",
+      "source": "monthly",
+      "locator": "2022년 1월 · 서천군",
+      "title": "서천군 2022년 1월 등록외국인",
+      "text": "2022년 1월 서천군 거주 등록외국인은 1,243명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 1/2022, huyện Seocheon có 1,243 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2022-01 resident population seocheon"
+    },
+    {
+      "id": "monthly-202202",
+      "source": "monthly",
+      "locator": "2022년 2월 · 서천군",
+      "title": "서천군 2022년 2월 등록외국인",
+      "text": "2022년 2월 서천군 거주 등록외국인은 1,234명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 2/2022, huyện Seocheon có 1,234 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2022-02 resident population seocheon"
+    },
+    {
+      "id": "monthly-202203",
+      "source": "monthly",
+      "locator": "2022년 3월 · 서천군",
+      "title": "서천군 2022년 3월 등록외국인",
+      "text": "2022년 3월 서천군 거주 등록외국인은 1,233명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 3/2022, huyện Seocheon có 1,233 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2022-03 resident population seocheon"
+    },
+    {
+      "id": "monthly-202204",
+      "source": "monthly",
+      "locator": "2022년 4월 · 서천군",
+      "title": "서천군 2022년 4월 등록외국인",
+      "text": "2022년 4월 서천군 거주 등록외국인은 1,245명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 4/2022, huyện Seocheon có 1,245 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2022-04 resident population seocheon"
+    },
+    {
+      "id": "monthly-202205",
+      "source": "monthly",
+      "locator": "2022년 5월 · 서천군",
+      "title": "서천군 2022년 5월 등록외국인",
+      "text": "2022년 5월 서천군 거주 등록외국인은 1,248명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 5/2022, huyện Seocheon có 1,248 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2022-05 resident population seocheon"
+    },
+    {
+      "id": "monthly-202206",
+      "source": "monthly",
+      "locator": "2022년 6월 · 서천군",
+      "title": "서천군 2022년 6월 등록외국인",
+      "text": "2022년 6월 서천군 거주 등록외국인은 1,257명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 6/2022, huyện Seocheon có 1,257 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2022-06 resident population seocheon"
+    },
+    {
+      "id": "monthly-202207",
+      "source": "monthly",
+      "locator": "2022년 7월 · 서천군",
+      "title": "서천군 2022년 7월 등록외국인",
+      "text": "2022년 7월 서천군 거주 등록외국인은 1,287명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 7/2022, huyện Seocheon có 1,287 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2022-07 resident population seocheon"
+    },
+    {
+      "id": "monthly-202208",
+      "source": "monthly",
+      "locator": "2022년 8월 · 서천군",
+      "title": "서천군 2022년 8월 등록외국인",
+      "text": "2022년 8월 서천군 거주 등록외국인은 1,306명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 8/2022, huyện Seocheon có 1,306 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2022-08 resident population seocheon"
+    },
+    {
+      "id": "monthly-202209",
+      "source": "monthly",
+      "locator": "2022년 9월 · 서천군",
+      "title": "서천군 2022년 9월 등록외국인",
+      "text": "2022년 9월 서천군 거주 등록외국인은 1,312명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 9/2022, huyện Seocheon có 1,312 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2022-09 resident population seocheon"
+    },
+    {
+      "id": "monthly-202210",
+      "source": "monthly",
+      "locator": "2022년 10월 · 서천군",
+      "title": "서천군 2022년 10월 등록외국인",
+      "text": "2022년 10월 서천군 거주 등록외국인은 1,391명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 10/2022, huyện Seocheon có 1,391 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2022-10 resident population seocheon"
+    },
+    {
+      "id": "monthly-202211",
+      "source": "monthly",
+      "locator": "2022년 11월 · 서천군",
+      "title": "서천군 2022년 11월 등록외국인",
+      "text": "2022년 11월 서천군 거주 등록외국인은 1,447명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 11/2022, huyện Seocheon có 1,447 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2022-11 resident population seocheon"
+    },
+    {
+      "id": "monthly-202212",
+      "source": "monthly",
+      "locator": "2022년 12월 · 서천군",
+      "title": "서천군 2022년 12월 등록외국인",
+      "text": "2022년 12월 서천군 거주 등록외국인은 1,435명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 12/2022, huyện Seocheon có 1,435 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2022-12 resident population seocheon"
+    },
+    {
+      "id": "monthly-202301",
+      "source": "monthly",
+      "locator": "2023년 1월 · 서천군",
+      "title": "서천군 2023년 1월 등록외국인",
+      "text": "2023년 1월 서천군 거주 등록외국인은 1,435명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 1/2023, huyện Seocheon có 1,435 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2023-01 resident population seocheon"
+    },
+    {
+      "id": "monthly-202302",
+      "source": "monthly",
+      "locator": "2023년 2월 · 서천군",
+      "title": "서천군 2023년 2월 등록외국인",
+      "text": "2023년 2월 서천군 거주 등록외국인은 1,439명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 2/2023, huyện Seocheon có 1,439 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2023-02 resident population seocheon"
+    },
+    {
+      "id": "monthly-202303",
+      "source": "monthly",
+      "locator": "2023년 3월 · 서천군",
+      "title": "서천군 2023년 3월 등록외국인",
+      "text": "2023년 3월 서천군 거주 등록외국인은 1,454명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 3/2023, huyện Seocheon có 1,454 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2023-03 resident population seocheon"
+    },
+    {
+      "id": "monthly-202304",
+      "source": "monthly",
+      "locator": "2023년 4월 · 서천군",
+      "title": "서천군 2023년 4월 등록외국인",
+      "text": "2023년 4월 서천군 거주 등록외국인은 1,492명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 4/2023, huyện Seocheon có 1,492 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2023-04 resident population seocheon"
+    },
+    {
+      "id": "monthly-202305",
+      "source": "monthly",
+      "locator": "2023년 5월 · 서천군",
+      "title": "서천군 2023년 5월 등록외국인",
+      "text": "2023년 5월 서천군 거주 등록외국인은 1,515명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 5/2023, huyện Seocheon có 1,515 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2023-05 resident population seocheon"
+    },
+    {
+      "id": "monthly-202306",
+      "source": "monthly",
+      "locator": "2023년 6월 · 서천군",
+      "title": "서천군 2023년 6월 등록외국인",
+      "text": "2023년 6월 서천군 거주 등록외국인은 1,531명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 6/2023, huyện Seocheon có 1,531 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2023-06 resident population seocheon"
+    },
+    {
+      "id": "monthly-202307",
+      "source": "monthly",
+      "locator": "2023년 7월 · 서천군",
+      "title": "서천군 2023년 7월 등록외국인",
+      "text": "2023년 7월 서천군 거주 등록외국인은 1,561명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 7/2023, huyện Seocheon có 1,561 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2023-07 resident population seocheon"
+    },
+    {
+      "id": "monthly-202308",
+      "source": "monthly",
+      "locator": "2023년 8월 · 서천군",
+      "title": "서천군 2023년 8월 등록외국인",
+      "text": "2023년 8월 서천군 거주 등록외국인은 1,614명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 8/2023, huyện Seocheon có 1,614 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2023-08 resident population seocheon"
+    },
+    {
+      "id": "monthly-202309",
+      "source": "monthly",
+      "locator": "2023년 9월 · 서천군",
+      "title": "서천군 2023년 9월 등록외국인",
+      "text": "2023년 9월 서천군 거주 등록외국인은 1,658명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 9/2023, huyện Seocheon có 1,658 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2023-09 resident population seocheon"
+    },
+    {
+      "id": "monthly-202310",
+      "source": "monthly",
+      "locator": "2023년 10월 · 서천군",
+      "title": "서천군 2023년 10월 등록외국인",
+      "text": "2023년 10월 서천군 거주 등록외국인은 1,768명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 10/2023, huyện Seocheon có 1,768 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2023-10 resident population seocheon"
+    },
+    {
+      "id": "monthly-202311",
+      "source": "monthly",
+      "locator": "2023년 11월 · 서천군",
+      "title": "서천군 2023년 11월 등록외국인",
+      "text": "2023년 11월 서천군 거주 등록외국인은 1,931명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 11/2023, huyện Seocheon có 1,931 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2023-11 resident population seocheon"
+    },
+    {
+      "id": "monthly-202312",
+      "source": "monthly",
+      "locator": "2023년 12월 · 서천군",
+      "title": "서천군 2023년 12월 등록외국인",
+      "text": "2023년 12월 서천군 거주 등록외국인은 1,970명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 12/2023, huyện Seocheon có 1,970 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2023-12 resident population seocheon"
+    },
+    {
+      "id": "monthly-202401",
+      "source": "monthly",
+      "locator": "2024년 1월 · 서천군",
+      "title": "서천군 2024년 1월 등록외국인",
+      "text": "2024년 1월 서천군 거주 등록외국인은 1,951명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 1/2024, huyện Seocheon có 1,951 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2024-01 resident population seocheon"
+    },
+    {
+      "id": "monthly-202402",
+      "source": "monthly",
+      "locator": "2024년 2월 · 서천군",
+      "title": "서천군 2024년 2월 등록외국인",
+      "text": "2024년 2월 서천군 거주 등록외국인은 1,951명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 2/2024, huyện Seocheon có 1,951 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2024-02 resident population seocheon"
+    },
+    {
+      "id": "monthly-202403",
+      "source": "monthly",
+      "locator": "2024년 3월 · 서천군",
+      "title": "서천군 2024년 3월 등록외국인",
+      "text": "2024년 3월 서천군 거주 등록외국인은 1,957명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 3/2024, huyện Seocheon có 1,957 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2024-03 resident population seocheon"
+    },
+    {
+      "id": "monthly-202404",
+      "source": "monthly",
+      "locator": "2024년 4월 · 서천군",
+      "title": "서천군 2024년 4월 등록외국인",
+      "text": "2024년 4월 서천군 거주 등록외국인은 1,828명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 4/2024, huyện Seocheon có 1,828 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2024-04 resident population seocheon"
+    },
+    {
+      "id": "monthly-202405",
+      "source": "monthly",
+      "locator": "2024년 5월 · 서천군",
+      "title": "서천군 2024년 5월 등록외국인",
+      "text": "2024년 5월 서천군 거주 등록외국인은 1,830명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 5/2024, huyện Seocheon có 1,830 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2024-05 resident population seocheon"
+    },
+    {
+      "id": "monthly-202406",
+      "source": "monthly",
+      "locator": "2024년 6월 · 서천군",
+      "title": "서천군 2024년 6월 등록외국인",
+      "text": "2024년 6월 서천군 거주 등록외국인은 1,844명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 6/2024, huyện Seocheon có 1,844 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2024-06 resident population seocheon"
+    },
+    {
+      "id": "monthly-202407",
+      "source": "monthly",
+      "locator": "2024년 7월 · 서천군",
+      "title": "서천군 2024년 7월 등록외국인",
+      "text": "2024년 7월 서천군 거주 등록외국인은 1,873명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 7/2024, huyện Seocheon có 1,873 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2024-07 resident population seocheon"
+    },
+    {
+      "id": "monthly-202408",
+      "source": "monthly",
+      "locator": "2024년 8월 · 서천군",
+      "title": "서천군 2024년 8월 등록외국인",
+      "text": "2024년 8월 서천군 거주 등록외국인은 1,924명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 8/2024, huyện Seocheon có 1,924 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2024-08 resident population seocheon"
+    },
+    {
+      "id": "monthly-202409",
+      "source": "monthly",
+      "locator": "2024년 9월 · 서천군",
+      "title": "서천군 2024년 9월 등록외국인",
+      "text": "2024년 9월 서천군 거주 등록외국인은 2,017명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 9/2024, huyện Seocheon có 2,017 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2024-09 resident population seocheon"
+    },
+    {
+      "id": "monthly-202410",
+      "source": "monthly",
+      "locator": "2024년 10월 · 서천군",
+      "title": "서천군 2024년 10월 등록외국인",
+      "text": "2024년 10월 서천군 거주 등록외국인은 2,082명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 10/2024, huyện Seocheon có 2,082 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2024-10 resident population seocheon"
+    },
+    {
+      "id": "monthly-202411",
+      "source": "monthly",
+      "locator": "2024년 11월 · 서천군",
+      "title": "서천군 2024년 11월 등록외국인",
+      "text": "2024년 11월 서천군 거주 등록외국인은 2,186명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 11/2024, huyện Seocheon có 2,186 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2024-11 resident population seocheon"
+    },
+    {
+      "id": "monthly-202412",
+      "source": "monthly",
+      "locator": "2024년 12월 · 서천군",
+      "title": "서천군 2024년 12월 등록외국인",
+      "text": "2024년 12월 서천군 거주 등록외국인은 2,241명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 12/2024, huyện Seocheon có 2,241 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2024-12 resident population seocheon"
+    },
+    {
+      "id": "monthly-202501",
+      "source": "monthly",
+      "locator": "2025년 1월 · 서천군",
+      "title": "서천군 2025년 1월 등록외국인",
+      "text": "2025년 1월 서천군 거주 등록외국인은 2,276명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 1/2025, huyện Seocheon có 2,276 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2025-01 resident population seocheon"
+    },
+    {
+      "id": "monthly-202502",
+      "source": "monthly",
+      "locator": "2025년 2월 · 서천군",
+      "title": "서천군 2025년 2월 등록외국인",
+      "text": "2025년 2월 서천군 거주 등록외국인은 2,250명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 2/2025, huyện Seocheon có 2,250 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2025-02 resident population seocheon"
+    },
+    {
+      "id": "monthly-202503",
+      "source": "monthly",
+      "locator": "2025년 3월 · 서천군",
+      "title": "서천군 2025년 3월 등록외국인",
+      "text": "2025년 3월 서천군 거주 등록외국인은 2,251명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 3/2025, huyện Seocheon có 2,251 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2025-03 resident population seocheon"
+    },
+    {
+      "id": "monthly-202504",
+      "source": "monthly",
+      "locator": "2025년 4월 · 서천군",
+      "title": "서천군 2025년 4월 등록외국인",
+      "text": "2025년 4월 서천군 거주 등록외국인은 2,122명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 4/2025, huyện Seocheon có 2,122 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2025-04 resident population seocheon"
+    },
+    {
+      "id": "monthly-202505",
+      "source": "monthly",
+      "locator": "2025년 5월 · 서천군",
+      "title": "서천군 2025년 5월 등록외국인",
+      "text": "2025년 5월 서천군 거주 등록외국인은 2,156명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 5/2025, huyện Seocheon có 2,156 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2025-05 resident population seocheon"
+    },
+    {
+      "id": "monthly-202506",
+      "source": "monthly",
+      "locator": "2025년 6월 · 서천군",
+      "title": "서천군 2025년 6월 등록외국인",
+      "text": "2025년 6월 서천군 거주 등록외국인은 2,165명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 6/2025, huyện Seocheon có 2,165 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2025-06 resident population seocheon"
+    },
+    {
+      "id": "monthly-202507",
+      "source": "monthly",
+      "locator": "2025년 7월 · 서천군",
+      "title": "서천군 2025년 7월 등록외국인",
+      "text": "2025년 7월 서천군 거주 등록외국인은 2,193명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 7/2025, huyện Seocheon có 2,193 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2025-07 resident population seocheon"
+    },
+    {
+      "id": "monthly-202508",
+      "source": "monthly",
+      "locator": "2025년 8월 · 서천군",
+      "title": "서천군 2025년 8월 등록외국인",
+      "text": "2025년 8월 서천군 거주 등록외국인은 2,237명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 8/2025, huyện Seocheon có 2,237 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2025-08 resident population seocheon"
+    },
+    {
+      "id": "monthly-202509",
+      "source": "monthly",
+      "locator": "2025년 9월 · 서천군",
+      "title": "서천군 2025년 9월 등록외국인",
+      "text": "2025년 9월 서천군 거주 등록외국인은 2,328명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 9/2025, huyện Seocheon có 2,328 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2025-09 resident population seocheon"
+    },
+    {
+      "id": "monthly-202510",
+      "source": "monthly",
+      "locator": "2025년 10월 · 서천군",
+      "title": "서천군 2025년 10월 등록외국인",
+      "text": "2025년 10월 서천군 거주 등록외국인은 2,498명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 10/2025, huyện Seocheon có 2,498 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2025-10 resident population seocheon"
+    },
+    {
+      "id": "monthly-202511",
+      "source": "monthly",
+      "locator": "2025년 11월 · 서천군",
+      "title": "서천군 2025년 11월 등록외국인",
+      "text": "2025년 11월 서천군 거주 등록외국인은 2,606명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 11/2025, huyện Seocheon có 2,606 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2025-11 resident population seocheon"
+    },
+    {
+      "id": "monthly-202512",
+      "source": "monthly",
+      "locator": "2025년 12월 · 서천군",
+      "title": "서천군 2025년 12월 등록외국인",
+      "text": "2025년 12월 서천군 거주 등록외국인은 2,788명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 12/2025, huyện Seocheon có 2,788 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2025-12 resident population seocheon"
+    },
+    {
+      "id": "monthly-202601",
+      "source": "monthly",
+      "locator": "2026년 1월 · 서천군",
+      "title": "서천군 2026년 1월 등록외국인",
+      "text": "2026년 1월 서천군 거주 등록외국인은 2,773명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 1/2026, huyện Seocheon có 2,773 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2026-01 resident population seocheon"
+    },
+    {
+      "id": "monthly-202602",
+      "source": "monthly",
+      "locator": "2026년 2월 · 서천군",
+      "title": "서천군 2026년 2월 등록외국인",
+      "text": "2026년 2월 서천군 거주 등록외국인은 2,742명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 2/2026, huyện Seocheon có 2,742 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2026-02 resident population seocheon"
+    },
+    {
+      "id": "monthly-202603",
+      "source": "monthly",
+      "locator": "2026년 3월 · 서천군",
+      "title": "서천군 2026년 3월 등록외국인",
+      "text": "2026년 3월 서천군 거주 등록외국인은 2,728명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 3/2026, huyện Seocheon có 2,728 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2026-03 resident population seocheon"
+    },
+    {
+      "id": "monthly-202604",
+      "source": "monthly",
+      "locator": "2026년 4월 · 서천군",
+      "title": "서천군 2026년 4월 등록외국인",
+      "text": "2026년 4월 서천군 거주 등록외국인은 2,454명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 4/2026, huyện Seocheon có 2,454 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2026-04 resident population seocheon"
+    },
+    {
+      "id": "monthly-202605",
+      "source": "monthly",
+      "locator": "2026년 5월 · 서천군",
+      "title": "서천군 2026년 5월 등록외국인",
+      "text": "2026년 5월 서천군 거주 등록외국인은 2,409명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 5/2026, huyện Seocheon có 2,409 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2026-05 resident population seocheon"
+    },
+    {
+      "id": "monthly-202606",
+      "source": "monthly",
+      "locator": "2026년 6월 · 서천군",
+      "title": "서천군 2026년 6월 등록외국인",
+      "text": "2026년 6월 서천군 거주 등록외국인은 2,417명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 6/2026, huyện Seocheon có 2,417 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2026-06 resident population seocheon"
+    },
+    {
+      "id": "monthly-202607",
+      "source": "monthly",
+      "locator": "2026년 7월 · 서천군",
+      "title": "서천군 2026년 7월 등록외국인",
+      "text": "2026년 7월 서천군 거주 등록외국인은 2,488명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 7/2026, huyện Seocheon có 2,488 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2026-07 resident population seocheon"
+    },
+    {
+      "id": "monthly-202608",
+      "source": "monthly",
+      "locator": "2026년 8월 · 서천군",
+      "title": "서천군 2026년 8월 등록외국인",
+      "text": "2026년 8월 서천군 거주 등록외국인은 2,579명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 8/2026, huyện Seocheon có 2,579 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2026-08 resident population seocheon"
+    },
+    {
+      "id": "monthly-202609",
+      "source": "monthly",
+      "locator": "2026년 9월 · 서천군",
+      "title": "서천군 2026년 9월 등록외국인",
+      "text": "2026년 9월 서천군 거주 등록외국인은 2,735명이다. 시군구 단위 거주지 통계다.",
+      "vi": "Tháng 9/2026, huyện Seocheon có 2,735 người nước ngoài đã đăng ký cư trú.",
+      "tags": "외국인 인구 월별 거주 추이 서천군 2026-09 resident population seocheon"
+    },
+    {
+      "id": "regions-장항읍",
+      "source": "regions",
+      "locator": "2.5 시트 · 장항읍 총계",
+      "title": "장항읍 등록외국인 현황",
+      "text": "2026년 9월 30일 기준 서천군 장항읍의 등록외국인은 858명이다. 거주지 기준 인원이다.",
+      "vi": "Ngày 30/09/2026, 장항읍 thuộc huyện Seocheon có 858 người nước ngoài đã đăng ký cư trú.",
+      "tags": "서천군 장항읍 읍면동 외국인 분포 상담 거점 주민 nhân khẩu"
+    },
+    {
+      "id": "regions-서천읍",
+      "source": "regions",
+      "locator": "2.5 시트 · 서천읍 총계",
+      "title": "서천읍 등록외국인 현황",
+      "text": "2026년 9월 30일 기준 서천군 서천읍의 등록외국인은 161명이다. 거주지 기준 인원이다.",
+      "vi": "Ngày 30/09/2026, 서천읍 thuộc huyện Seocheon có 161 người nước ngoài đã đăng ký cư trú.",
+      "tags": "서천군 서천읍 읍면동 외국인 분포 상담 거점 주민 nhân khẩu"
+    },
+    {
+      "id": "regions-마서면",
+      "source": "regions",
+      "locator": "2.5 시트 · 마서면 총계",
+      "title": "마서면 등록외국인 현황",
+      "text": "2026년 9월 30일 기준 서천군 마서면의 등록외국인은 203명이다. 거주지 기준 인원이다.",
+      "vi": "Ngày 30/09/2026, 마서면 thuộc huyện Seocheon có 203 người nước ngoài đã đăng ký cư trú.",
+      "tags": "서천군 마서면 읍면동 외국인 분포 상담 거점 주민 nhân khẩu"
+    },
+    {
+      "id": "regions-화양면",
+      "source": "regions",
+      "locator": "2.5 시트 · 화양면 총계",
+      "title": "화양면 등록외국인 현황",
+      "text": "2026년 9월 30일 기준 서천군 화양면의 등록외국인은 44명이다. 거주지 기준 인원이다.",
+      "vi": "Ngày 30/09/2026, 화양면 thuộc huyện Seocheon có 44 người nước ngoài đã đăng ký cư trú.",
+      "tags": "서천군 화양면 읍면동 외국인 분포 상담 거점 주민 nhân khẩu"
+    },
+    {
+      "id": "regions-기산면",
+      "source": "regions",
+      "locator": "2.5 시트 · 기산면 총계",
+      "title": "기산면 등록외국인 현황",
+      "text": "2026년 9월 30일 기준 서천군 기산면의 등록외국인은 15명이다. 거주지 기준 인원이다.",
+      "vi": "Ngày 30/09/2026, 기산면 thuộc huyện Seocheon có 15 người nước ngoài đã đăng ký cư trú.",
+      "tags": "서천군 기산면 읍면동 외국인 분포 상담 거점 주민 nhân khẩu"
+    },
+    {
+      "id": "regions-한산면",
+      "source": "regions",
+      "locator": "2.5 시트 · 한산면 총계",
+      "title": "한산면 등록외국인 현황",
+      "text": "2026년 9월 30일 기준 서천군 한산면의 등록외국인은 35명이다. 거주지 기준 인원이다.",
+      "vi": "Ngày 30/09/2026, 한산면 thuộc huyện Seocheon có 35 người nước ngoài đã đăng ký cư trú.",
+      "tags": "서천군 한산면 읍면동 외국인 분포 상담 거점 주민 nhân khẩu"
+    },
+    {
+      "id": "regions-마산면",
+      "source": "regions",
+      "locator": "2.5 시트 · 마산면 총계",
+      "title": "마산면 등록외국인 현황",
+      "text": "2026년 9월 30일 기준 서천군 마산면의 등록외국인은 17명이다. 거주지 기준 인원이다.",
+      "vi": "Ngày 30/09/2026, 마산면 thuộc huyện Seocheon có 17 người nước ngoài đã đăng ký cư trú.",
+      "tags": "서천군 마산면 읍면동 외국인 분포 상담 거점 주민 nhân khẩu"
+    },
+    {
+      "id": "regions-시초면",
+      "source": "regions",
+      "locator": "2.5 시트 · 시초면 총계",
+      "title": "시초면 등록외국인 현황",
+      "text": "2026년 9월 30일 기준 서천군 시초면의 등록외국인은 9명이다. 거주지 기준 인원이다.",
+      "vi": "Ngày 30/09/2026, 시초면 thuộc huyện Seocheon có 9 người nước ngoài đã đăng ký cư trú.",
+      "tags": "서천군 시초면 읍면동 외국인 분포 상담 거점 주민 nhân khẩu"
+    },
+    {
+      "id": "regions-문산면",
+      "source": "regions",
+      "locator": "2.5 시트 · 문산면 총계",
+      "title": "문산면 등록외국인 현황",
+      "text": "2026년 9월 30일 기준 서천군 문산면의 등록외국인은 27명이다. 거주지 기준 인원이다.",
+      "vi": "Ngày 30/09/2026, 문산면 thuộc huyện Seocheon có 27 người nước ngoài đã đăng ký cư trú.",
+      "tags": "서천군 문산면 읍면동 외국인 분포 상담 거점 주민 nhân khẩu"
+    },
+    {
+      "id": "regions-판교면",
+      "source": "regions",
+      "locator": "2.5 시트 · 판교면 총계",
+      "title": "판교면 등록외국인 현황",
+      "text": "2026년 9월 30일 기준 서천군 판교면의 등록외국인은 11명이다. 거주지 기준 인원이다.",
+      "vi": "Ngày 30/09/2026, 판교면 thuộc huyện Seocheon có 11 người nước ngoài đã đăng ký cư trú.",
+      "tags": "서천군 판교면 읍면동 외국인 분포 상담 거점 주민 nhân khẩu"
+    },
+    {
+      "id": "regions-종천면",
+      "source": "regions",
+      "locator": "2.5 시트 · 종천면 총계",
+      "title": "종천면 등록외국인 현황",
+      "text": "2026년 9월 30일 기준 서천군 종천면의 등록외국인은 168명이다. 거주지 기준 인원이다.",
+      "vi": "Ngày 30/09/2026, 종천면 thuộc huyện Seocheon có 168 người nước ngoài đã đăng ký cư trú.",
+      "tags": "서천군 종천면 읍면동 외국인 분포 상담 거점 주민 nhân khẩu"
+    },
+    {
+      "id": "regions-비인면",
+      "source": "regions",
+      "locator": "2.5 시트 · 비인면 총계",
+      "title": "비인면 등록외국인 현황",
+      "text": "2026년 9월 30일 기준 서천군 비인면의 등록외국인은 96명이다. 거주지 기준 인원이다.",
+      "vi": "Ngày 30/09/2026, 비인면 thuộc huyện Seocheon có 96 người nước ngoài đã đăng ký cư trú.",
+      "tags": "서천군 비인면 읍면동 외국인 분포 상담 거점 주민 nhân khẩu"
+    },
+    {
+      "id": "regions-서면",
+      "source": "regions",
+      "locator": "2.5 시트 · 서면 총계",
+      "title": "서면 등록외국인 현황",
+      "text": "2026년 9월 30일 기준 서천군 서면의 등록외국인은 1,091명이다. 거주지 기준 인원이다.",
+      "vi": "Ngày 30/09/2026, 서면 thuộc huyện Seocheon có 1,091 người nước ngoài đã đăng ký cư trú.",
+      "tags": "서천군 서면 읍면동 외국인 분포 상담 거점 주민 nhân khẩu"
+    },
+    {
+      "id": "regions-overview",
+      "source": "regions",
+      "locator": "2.5 시트 · 서천군 읍면동 총계 비교",
+      "title": "서천군 등록외국인 거주 분포",
+      "text": "2026년 9월 30일 서천군 등록외국인은 2,735명이다. 거주지 상위 두 곳은 서면 1,091명, 장항읍 858명으로, 합계는 군 전체의 71.3%다. 상담 장소 검토에 활용할 수 있으며 개인 근무지·주거 수요는 별도로 확인한다.",
+      "vi": "",
+      "tags": "서천군 어느 읍면동 등록외국인 가장 많은 서면 장항읍 상담 거점 비교 tập trung cư trú"
+    },
+    {
+      "id": "visa-E8",
+      "source": "visa",
+      "locator": "2.3 시트 · 서천군 총계 · E8",
+      "title": "서천군 E8 계절근로 인원",
+      "text": "2026년 9월 30일 서천군 거주 등록외국인 중 E8(계절근로)은 315명이다. 시군구 단위 체류자격 통계다.",
+      "vi": "",
+      "tags": "서천군 E8 계절근로 외국인근로자 비자 lao động visa"
+    },
+    {
+      "id": "visa-E9",
+      "source": "visa",
+      "locator": "2.3 시트 · 서천군 총계 · E9",
+      "title": "서천군 E9 비전문취업 인원",
+      "text": "2026년 9월 30일 서천군 거주 등록외국인 중 E9(비전문취업)은 1,406명이다. 시군구 단위 체류자격 통계다.",
+      "vi": "",
+      "tags": "서천군 E9 비전문취업 외국인근로자 비자 lao động visa"
+    },
+    {
+      "id": "visa-E10",
+      "source": "visa",
+      "locator": "2.3 시트 · 서천군 총계 · E10",
+      "title": "서천군 E10 선원취업 인원",
+      "text": "2026년 9월 30일 서천군 거주 등록외국인 중 E10(선원취업)은 390명이다. 시군구 단위 체류자격 통계다.",
+      "vi": "",
+      "tags": "서천군 E10 선원취업 외국인근로자 비자 lao động visa"
+    },
+    {
+      "id": "nationality-overview",
+      "source": "nationality",
+      "locator": "2.1 시트 · 서천군 국적 구성",
+      "title": "등록외국인 시군구별·국적별 현황",
+      "text": "서천군 거주 등록외국인의 국적별 상위 인원은 베트남 1,051명, 인도네시아 459명, 네팔 177명, 몽골 170명, 필리핀 163명이다. 기준일은 2026년 9월 30일이며 상담 선호 언어는 신청자에게 확인한다.",
+      "vi": "",
+      "tags": "서천 국적 외국인 베트남 인도네시아 언어 번역 Vietnamese quốc tịch"
+    },
+    {
+      "id": "apartments-1",
+      "source": "apartments",
+      "locator": "CSV · 1번 레코드",
+      "title": "한국중부발전㈜ 신서천발전본부 사원아파트",
+      "text": "한국중부발전㈜ 신서천발전본부 사원아파트 주소는 충청남도 서천군 서면 춘장대로 130이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-2",
+      "source": "apartments",
+      "locator": "CSV · 2번 레코드",
+      "title": "남부주택",
+      "text": "남부주택 주소는 충청남도 서천군 서천읍 서천로 115-2이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-3",
+      "source": "apartments",
+      "locator": "CSV · 3번 레코드",
+      "title": "영흥맨션",
+      "text": "영흥맨션 주소는 충청남도 서천군 장항읍 신창서로 64이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-4",
+      "source": "apartments",
+      "locator": "CSV · 4번 레코드",
+      "title": "명기주택 가동",
+      "text": "명기주택 가동 주소는 충청남도 서천군 장항읍 장항로201번길 46이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-5",
+      "source": "apartments",
+      "locator": "CSV · 5번 레코드",
+      "title": "서천화력사원사택",
+      "text": "서천화력사원사택 주소는 충청남도 서천군 서천읍 서천로200번길 1이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-6",
+      "source": "apartments",
+      "locator": "CSV · 6번 레코드",
+      "title": "제일아파트",
+      "text": "제일아파트 주소는 충청남도 서천군 서천읍 충절로29번길 16이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-7",
+      "source": "apartments",
+      "locator": "CSV · 7번 레코드",
+      "title": "신흥아파트",
+      "text": "신흥아파트 주소는 충청남도 서천군 장항읍 신창서로 81이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-8",
+      "source": "apartments",
+      "locator": "CSV · 8번 레코드",
+      "title": "금강아파트",
+      "text": "금강아파트 주소는 충청남도 서천군 장항읍 성화로 194이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-9",
+      "source": "apartments",
+      "locator": "CSV · 9번 레코드",
+      "title": "정원아파트",
+      "text": "정원아파트 주소는 충청남도 서천군 서천읍 사곡로75번길 7이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-10",
+      "source": "apartments",
+      "locator": "CSV · 10번 레코드",
+      "title": "LS메탈사원아파트",
+      "text": "LS메탈사원아파트 주소는 충청남도 서천군 장항읍 화송길 40이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-11",
+      "source": "apartments",
+      "locator": "CSV · 11번 레코드",
+      "title": "임해아파트",
+      "text": "임해아파트 주소는 충청남도 서천군 장항읍 장항공단길10번길 42이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-12",
+      "source": "apartments",
+      "locator": "CSV · 12번 레코드",
+      "title": "천산아파트",
+      "text": "천산아파트 주소는 충청남도 서천군 마서면 장서로 493이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-13",
+      "source": "apartments",
+      "locator": "CSV · 13번 레코드",
+      "title": "신영골든빌아파트",
+      "text": "신영골든빌아파트 주소는 충청남도 서천군 서천읍 사곡로 12-16이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-14",
+      "source": "apartments",
+      "locator": "CSV · 14번 레코드",
+      "title": "서천클래시움아파트",
+      "text": "서천클래시움아파트 주소는 충청남도 서천군 서천읍 사곡로75번길 6이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-15",
+      "source": "apartments",
+      "locator": "CSV · 15번 레코드",
+      "title": "천산스카이빌1차아파트",
+      "text": "천산스카이빌1차아파트 주소는 충청남도 서천군 서천읍 서천로143번길 51이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-16",
+      "source": "apartments",
+      "locator": "CSV · 16번 레코드",
+      "title": "서천사곡휴먼시아아파트",
+      "text": "서천사곡휴먼시아아파트 주소는 충청남도 서천군 서천읍 사곡로 17이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-17",
+      "source": "apartments",
+      "locator": "CSV · 17번 레코드",
+      "title": "장항원수휴먼시아아파트",
+      "text": "장항원수휴먼시아아파트 주소는 충청남도 서천군 장항읍 장항로 285이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-18",
+      "source": "apartments",
+      "locator": "CSV · 18번 레코드",
+      "title": "천산스카이빌2차아파트",
+      "text": "천산스카이빌2차아파트 주소는 충청남도 서천군 서천읍 서천로131번길 33-3이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-19",
+      "source": "apartments",
+      "locator": "CSV · 19번 레코드",
+      "title": "서천종천휴먼시아아파트",
+      "text": "서천종천휴먼시아아파트 주소는 충청남도 서천군 종천면 충서로302번길 88-34이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-20",
+      "source": "apartments",
+      "locator": "CSV · 20번 레코드",
+      "title": "골든팰리스아파트",
+      "text": "골든팰리스아파트 주소는 충청남도 서천군 장항읍 장서로 63이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-21",
+      "source": "apartments",
+      "locator": "CSV · 21번 레코드",
+      "title": "장항천산스카이빌아파트",
+      "text": "장항천산스카이빌아파트 주소는 충청남도 서천군 장항읍 장산로 407이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-22",
+      "source": "apartments",
+      "locator": "CSV · 22번 레코드",
+      "title": "천산스카이빌3차아파트",
+      "text": "천산스카이빌3차아파트 주소는 충청남도 서천군 서천읍 사곡로 8이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-23",
+      "source": "apartments",
+      "locator": "CSV · 23번 레코드",
+      "title": "장항더포레아파트",
+      "text": "장항더포레아파트 주소는 충청남도 서천군 장항읍 장서로 77이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-24",
+      "source": "apartments",
+      "locator": "CSV · 24번 레코드",
+      "title": "서천코아루천년가아파트",
+      "text": "서천코아루천년가아파트 주소는 충청남도 서천군 서천읍 대백제로 1042-41이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-25",
+      "source": "apartments",
+      "locator": "CSV · 25번 레코드",
+      "title": "장항이테크더리브아파트",
+      "text": "장항이테크더리브아파트 주소는 충청남도 서천군 장항읍 성화로 156이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-26",
+      "source": "apartments",
+      "locator": "CSV · 26번 레코드",
+      "title": "서천장항LH1단지아파트",
+      "text": "서천장항LH1단지아파트 주소는 충청남도 서천군 장항읍 장항산단1길 60이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-27",
+      "source": "apartments",
+      "locator": "CSV · 27번 레코드",
+      "title": "장항성주LH천년나무아파트",
+      "text": "장항성주LH천년나무아파트 주소는 충청남도 서천군 장항읍 성주새길 8이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-28",
+      "source": "apartments",
+      "locator": "CSV · 28번 레코드",
+      "title": "꿈비채아파트",
+      "text": "꿈비채아파트 주소는 충청남도 서천군 서천읍 충절로109번길 13이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "apartments-29",
+      "source": "apartments",
+      "locator": "CSV · 29번 레코드",
+      "title": "루지움더스튜디오 서천",
+      "text": "루지움더스튜디오 서천 주소는 충청남도 서천군 서천읍 화금서길 38이다. 단지 현황 자료로 공실·임대 가능 여부는 별도 확인한다.",
+      "vi": "",
+      "tags": "아파트 단지 공동주택 위치 주거 후보 공급 현황"
+    },
+    {
+      "id": "businesses-1",
+      "source": "businesses",
+      "locator": "CSV · 1번 레코드",
+      "title": "(유)건우",
+      "text": "(유)건우의 공장 대표 주소는 충청남도 서천군 장항읍 장산로 149 (한솔제지(장항공장))이다. 생산품은 백상지, 아트지이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-2",
+      "source": "businesses",
+      "locator": "CSV · 2번 레코드",
+      "title": "(유)대호",
+      "text": "(유)대호의 공장 대표 주소는 충청남도 서천군 장항읍 장산로 149 (한솔제지(장항공장))이다. 생산품은 백상지,아트지이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-3",
+      "source": "businesses",
+      "locator": "CSV · 3번 레코드",
+      "title": "(주)군장조선",
+      "text": "(주)군장조선의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 43 ((주)군장조선)이다. 생산품은 frp선박이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-4",
+      "source": "businesses",
+      "locator": "CSV · 4번 레코드",
+      "title": "(주)기업과사람들",
+      "text": "(주)기업과사람들의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 47이다. 생산품은 핫도그, 치즈볼, 냉동딸기 등이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-5",
+      "source": "businesses",
+      "locator": "CSV · 5번 레코드",
+      "title": "(주)남전물산",
+      "text": "(주)남전물산의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길 71 (남전물산)이다. 생산품은 주문형첨가제18종,아델린에프, 단미사료이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-6",
+      "source": "businesses",
+      "locator": "CSV · 6번 레코드",
+      "title": "(주)농민식품 제3공장",
+      "text": "(주)농민식품 제3공장의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길14번길 64 외 2필지이다. 생산품은 도토리묵,  도토리 녹말이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-7",
+      "source": "businesses",
+      "locator": "CSV · 7번 레코드",
+      "title": "(주)다산기계",
+      "text": "(주)다산기계의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길28번길 60 외 1필지이다. 생산품은 AXLE CASING ASSY이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-8",
+      "source": "businesses",
+      "locator": "CSV · 8번 레코드",
+      "title": "(주)대동산업",
+      "text": "(주)대동산업의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길32번길 24이다. 생산품은 용접철망,돌망태,비닐끈니른,부직포이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-9",
+      "source": "businesses",
+      "locator": "CSV · 9번 레코드",
+      "title": "(주)대지",
+      "text": "(주)대지의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길28번길 40 ((주)대지)이다. 생산품은 a/shaft , d/case이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-10",
+      "source": "businesses",
+      "locator": "CSV · 10번 레코드",
+      "title": "(주)동성물산",
+      "text": "(주)동성물산의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길14번길 40 (동성물산)이다. 생산품은 소형연마석이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-11",
+      "source": "businesses",
+      "locator": "CSV · 11번 레코드",
+      "title": "(주)모헨즈 서천공장",
+      "text": "(주)모헨즈 서천공장의 공장 대표 주소는 충청남도 서천군 비인면 갯벌체험로695번길 138-18 (덕원레미콘) (총 6 필지)이다. 생산품은 레미콘이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-12",
+      "source": "businesses",
+      "locator": "CSV · 12번 레코드",
+      "title": "(주)베르상스퍼시픽",
+      "text": "(주)베르상스퍼시픽의 공장 대표 주소는 충청남도 서천군 장항읍 신창서로 29 (퍼시픽글라스) 외 1필지이다. 생산품은 화장품 용기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-13",
+      "source": "businesses",
+      "locator": "CSV · 13번 레코드",
+      "title": "(주)부강이엔지",
+      "text": "(주)부강이엔지의 공장 대표 주소는 충청남도 서천군 서천읍 동산길12번길 2이다. 생산품은 자동제어반,접속반이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-14",
+      "source": "businesses",
+      "locator": "CSV · 14번 레코드",
+      "title": "(주)부강이엔지",
+      "text": "(주)부강이엔지의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길32번길 8이다. 생산품은 신호등.배전반등이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-15",
+      "source": "businesses",
+      "locator": "CSV · 15번 레코드",
+      "title": "(주)삼남",
+      "text": "(주)삼남의 공장 대표 주소는 충청남도 서천군 판교면 대백제로 2220 (총 4 필지) 외 3필지이다. 생산품은 아스콘이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-16",
+      "source": "businesses",
+      "locator": "CSV · 16번 레코드",
+      "title": "(주)상평엘앤티글로벌",
+      "text": "(주)상평엘앤티글로벌의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길10번길 36-1이다. 생산품은 고춧가루외이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-17",
+      "source": "businesses",
+      "locator": "CSV · 17번 레코드",
+      "title": "(주)서광냉업",
+      "text": "(주)서광냉업의 공장 대표 주소는 충청남도 서천군 서면 부원길 572 (서광냉업) (총 2 필지) 외 1필지이다. 생산품은 건새우,건실치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-18",
+      "source": "businesses",
+      "locator": "CSV · 18번 레코드",
+      "title": "(주)서천원조김",
+      "text": "(주)서천원조김의 공장 대표 주소는 충청남도 서천군 서면 갯벌체험로 10 외 1필지이다. 생산품은 조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-19",
+      "source": "businesses",
+      "locator": "CSV · 19번 레코드",
+      "title": "(주)성현기업사",
+      "text": "(주)성현기업사의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길60번길 20 (총 5 필지) 외 4필지이다. 생산품은 인펠라 샤우트이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-20",
+      "source": "businesses",
+      "locator": "CSV · 20번 레코드",
+      "title": "(주)성현기업사2공장",
+      "text": "(주)성현기업사2공장의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길 77 (한성기계)이다. 생산품은 발전풀랜트기자재이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-21",
+      "source": "businesses",
+      "locator": "CSV · 21번 레코드",
+      "title": "(주)씨에버",
+      "text": "(주)씨에버의 공장 대표 주소는 충청남도 서천군 서면 서인로716번길 37이다. 생산품은 냉동 수산물(피,전복,조개류,소라)이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-22",
+      "source": "businesses",
+      "locator": "CSV · 22번 레코드",
+      "title": "(주)에스피씨 삼립 서천공장",
+      "text": "(주)에스피씨 삼립 서천공장의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길14번길 52 (종천면) 외 4필지이다. 생산품은 햄, 소시지, 캔햄, 패티, 가라아게이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-23",
+      "source": "businesses",
+      "locator": "CSV · 23번 레코드",
+      "title": "(주)에이스테크",
+      "text": "(주)에이스테크의 공장 대표 주소는 충청남도 서천군 서천읍 화성리 192-3번지이다. 생산품은 펌프, 수문 등이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-24",
+      "source": "businesses",
+      "locator": "CSV · 24번 레코드",
+      "title": "(주)엔시아어패럴",
+      "text": "(주)엔시아어패럴의 공장 대표 주소는 충청남도 서천군 서천읍 송신로226번길 22이다. 생산품은 건멸치가루,건고추가루이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-25",
+      "source": "businesses",
+      "locator": "CSV · 25번 레코드",
+      "title": "(주)영우정보기술",
+      "text": "(주)영우정보기술의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 37-8, (2동)이다. 생산품은 폐쇄회로 카메라이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-26",
+      "source": "businesses",
+      "locator": "CSV · 26번 레코드",
+      "title": "(주)우양",
+      "text": "(주)우양의 공장 대표 주소는 충청남도 서천군 장항읍 장산로 357 ((주)우양냉동식품) 외 1필지이다. 생산품은 딸기등과일베퓨레이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-27",
+      "source": "businesses",
+      "locator": "CSV · 27번 레코드",
+      "title": "(주)우양",
+      "text": "(주)우양의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길28번길 97-8 (우양냉동식품) (총 3 필지) 외 4필지이다. 생산품은 핫도그,고구마페이스트이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-28",
+      "source": "businesses",
+      "locator": "CSV · 28번 레코드",
+      "title": "(주)이젠우리텍",
+      "text": "(주)이젠우리텍의 공장 대표 주소는 충청남도 서천군 화양면 장산로 1084이다. 생산품은 건축내외장재이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-29",
+      "source": "businesses",
+      "locator": "CSV · 29번 레코드",
+      "title": "(주)일광폴리머",
+      "text": "(주)일광폴리머의 공장 대표 주소는 충청남도 서천군 종천면 석촌리 670번지이다. 생산품은 합성수지, 전자자동차부품이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-30",
+      "source": "businesses",
+      "locator": "CSV · 30번 레코드",
+      "title": "(주)일광폴리머 서천2공장",
+      "text": "(주)일광폴리머 서천2공장의 공장 대표 주소는 충청남도 서천군 종천면 석촌리 670-1이다. 생산품은 자동차 부품이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-31",
+      "source": "businesses",
+      "locator": "CSV · 31번 레코드",
+      "title": "(주)일아아스콘",
+      "text": "(주)일아아스콘의 공장 대표 주소는 충청남도 서천군 종천면 충서로 513-90 ((주)일아아스콘사업부) 외 1필지이다. 생산품은 아스콘이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-32",
+      "source": "businesses",
+      "locator": "CSV · 32번 레코드",
+      "title": "(주)재성글로벌",
+      "text": "(주)재성글로벌의 공장 대표 주소는 충청남도 서천군 비인면 충서로 670-16이다. 생산품은 보호테이프이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-33",
+      "source": "businesses",
+      "locator": "CSV · 33번 레코드",
+      "title": "(주)제이케이전기",
+      "text": "(주)제이케이전기의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길14번길 57이다. 생산품은 수배전반, 분전반, 전동기제어, 태양광발전장치, 영상감시장치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-34",
+      "source": "businesses",
+      "locator": "CSV · 34번 레코드",
+      "title": "(주)중앙전기",
+      "text": "(주)중앙전기의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 33이다. 생산품은 배전반 및 전기자동제어반, 태양광 발전장치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-35",
+      "source": "businesses",
+      "locator": "CSV · 35번 레코드",
+      "title": "(주)지명",
+      "text": "(주)지명의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 37-14이다. 생산품은 산업용 냉동기 및 열교환기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-36",
+      "source": "businesses",
+      "locator": "CSV · 36번 레코드",
+      "title": "(주)청화농산",
+      "text": "(주)청화농산의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길28번길 117-1이다. 생산품은 볶음참깨, 참기름이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-37",
+      "source": "businesses",
+      "locator": "CSV · 37번 레코드",
+      "title": "(주)코츠(장항 제1공장)",
+      "text": "(주)코츠(장항 제1공장)의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길 31 (아시아통운)이다. 생산품은 활석분 외이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-38",
+      "source": "businesses",
+      "locator": "CSV · 38번 레코드",
+      "title": "(주)코츠(장항 제2공장)",
+      "text": "(주)코츠(장항 제2공장)의 공장 대표 주소는 충청남도 서천군 장항읍 원수리 산 50-2번지 외 9필지이다. 생산품은 활석분말이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-39",
+      "source": "businesses",
+      "locator": "CSV · 39번 레코드",
+      "title": "(주)태흥물산",
+      "text": "(주)태흥물산의 공장 대표 주소는 충청남도 서천군 장항읍 원수리 212번지이다. 생산품은 수산물 가공, 냉동품이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-40",
+      "source": "businesses",
+      "locator": "CSV · 40번 레코드",
+      "title": "(주)풍농 장항공장",
+      "text": "(주)풍농 장항공장의 공장 대표 주소는 충청남도 서천군 장항읍 장산로 209 ((주)풍농) 외 3필지이다. 생산품은 용성인비이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-41",
+      "source": "businesses",
+      "locator": "CSV · 41번 레코드",
+      "title": "(주)풍천엔지니어링",
+      "text": "(주)풍천엔지니어링의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길14번길 68 (종천면) 외 1필지이다. 생산품은 산업처리제어장비외이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-42",
+      "source": "businesses",
+      "locator": "CSV · 42번 레코드",
+      "title": "(주)한국글로벌제약",
+      "text": "(주)한국글로벌제약의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길32번길 26이다. 생산품은 전문의약품이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-43",
+      "source": "businesses",
+      "locator": "CSV · 43번 레코드",
+      "title": "(주)한산케미칼",
+      "text": "(주)한산케미칼의 공장 대표 주소는 충청남도 서천군 화양면 화촌리 230번지이다. 생산품은 스티로폴이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-44",
+      "source": "businesses",
+      "locator": "CSV · 44번 레코드",
+      "title": "(주)한성목재",
+      "text": "(주)한성목재의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 54 (한성목재)이다. 생산품은 목재상자이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-45",
+      "source": "businesses",
+      "locator": "CSV · 45번 레코드",
+      "title": "(주)해담솔",
+      "text": "(주)해담솔의 공장 대표 주소는 충청남도 서천군 서천읍 대백제로 1176-8이다. 생산품은 조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-46",
+      "source": "businesses",
+      "locator": "CSV · 46번 레코드",
+      "title": "(주)해성 푸드원",
+      "text": "(주)해성 푸드원의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길 37-20이다. 생산품은 HF찹쌀가루이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-47",
+      "source": "businesses",
+      "locator": "CSV · 47번 레코드",
+      "title": "(주)해한빛",
+      "text": "(주)해한빛의 공장 대표 주소는 충청남도 서천군 장항읍 옥남길 11-24 외 1필지이다. 생산품은 건조멸치, 건조새우이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-48",
+      "source": "businesses",
+      "locator": "CSV · 48번 레코드",
+      "title": "(합)세원산업",
+      "text": "(합)세원산업의 공장 대표 주소는 충청남도 서천군 마서면 삼연길 28이다. 생산품은 발전설비기계부품이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-49",
+      "source": "businesses",
+      "locator": "CSV · 49번 레코드",
+      "title": "13대경호",
+      "text": "13대경호의 공장 대표 주소는 충청남도 서천군 서면 신합리 226-1이다. 생산품은 마른멸치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-50",
+      "source": "businesses",
+      "locator": "CSV · 50번 레코드",
+      "title": "거평수산",
+      "text": "거평수산의 공장 대표 주소는 충청남도 서천군 비인면 갯벌체험로695번길 28-10이다. 생산품은 마른멸치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-51",
+      "source": "businesses",
+      "locator": "CSV · 51번 레코드",
+      "title": "건호",
+      "text": "건호의 공장 대표 주소는 충청남도 서천군 문산면 북산길 217-1이다. 생산품은 모시가루,모시환이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-52",
+      "source": "businesses",
+      "locator": "CSV · 52번 레코드",
+      "title": "경양수산",
+      "text": "경양수산의 공장 대표 주소는 충청남도 서천군 장항읍 장마로 179이다. 생산품은 건멸치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-53",
+      "source": "businesses",
+      "locator": "CSV · 53번 레코드",
+      "title": "계동산업",
+      "text": "계동산업의 공장 대표 주소는 충청남도 서천군 서면 갯벌체험로 120 ((주)계동산업)이다. 생산품은 규사,공업용모래이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-54",
+      "source": "businesses",
+      "locator": "CSV · 54번 레코드",
+      "title": "금강1호 태양광발전소",
+      "text": "금강1호 태양광발전소의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길28번길 34이다. 생산품은 전기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-55",
+      "source": "businesses",
+      "locator": "CSV · 55번 레코드",
+      "title": "금강2호 태양광발전소",
+      "text": "금강2호 태양광발전소의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길28번길 34이다. 생산품은 전기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-56",
+      "source": "businesses",
+      "locator": "CSV · 56번 레코드",
+      "title": "금강정공",
+      "text": "금강정공의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길32번길 31-6 (금강정공)이다. 생산품은 베어링부품이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-57",
+      "source": "businesses",
+      "locator": "CSV · 57번 레코드",
+      "title": "금강중공업",
+      "text": "금강중공업의 공장 대표 주소는 충청남도 서천군 장항읍 장산로 598이다. 생산품은 예인선,함선,잔교이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-58",
+      "source": "businesses",
+      "locator": "CSV · 58번 레코드",
+      "title": "금강중공업 제2공장",
+      "text": "금강중공업 제2공장의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길28번길 34이다. 생산품은 강선건조이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-59",
+      "source": "businesses",
+      "locator": "CSV · 59번 레코드",
+      "title": "금성지관(주)",
+      "text": "금성지관(주)의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 44 (금성지관)이다. 생산품은 지관이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-60",
+      "source": "businesses",
+      "locator": "CSV · 60번 레코드",
+      "title": "금아 태양광발전소",
+      "text": "금아 태양광발전소의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 37-8 (대한전기)이다. 생산품은 전기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-61",
+      "source": "businesses",
+      "locator": "CSV · 61번 레코드",
+      "title": "금창수산",
+      "text": "금창수산의 공장 대표 주소는 충청남도 서천군 서면 도둔리 1073-2번지이다. 생산품은 마른멸치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-62",
+      "source": "businesses",
+      "locator": "CSV · 62번 레코드",
+      "title": "기성정밀",
+      "text": "기성정밀의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 23이다. 생산품은 금형기계, 열교환기기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-63",
+      "source": "businesses",
+      "locator": "CSV · 63번 레코드",
+      "title": "기업과사람들1 태양광발전소",
+      "text": "기업과사람들1 태양광발전소의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 47, 5동이다. 생산품은 전기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-64",
+      "source": "businesses",
+      "locator": "CSV · 64번 레코드",
+      "title": "기업과사람들2 태양광발전소",
+      "text": "기업과사람들2 태양광발전소의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 47, 1동, 5동이다. 생산품은 전기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-65",
+      "source": "businesses",
+      "locator": "CSV · 65번 레코드",
+      "title": "기업과사람들3 태양광발전소",
+      "text": "기업과사람들3 태양광발전소의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 47, 1동, 2동이다. 생산품은 전기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-66",
+      "source": "businesses",
+      "locator": "CSV · 66번 레코드",
+      "title": "꿈철",
+      "text": "꿈철의 공장 대표 주소는 충청남도 서천군 마서면 덕암리 525-1번지 외 1필지이다. 생산품은 홀성형지붕재,벽재이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-67",
+      "source": "businesses",
+      "locator": "CSV · 67번 레코드",
+      "title": "남양수산",
+      "text": "남양수산의 공장 대표 주소는 충청남도 서천군 마서면 마서로581번길 47 (남양수산)이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-68",
+      "source": "businesses",
+      "locator": "CSV · 68번 레코드",
+      "title": "남양수산",
+      "text": "남양수산의 공장 대표 주소는 충청남도 서천군 마서면 마서로 605-33이다. 생산품은 김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-69",
+      "source": "businesses",
+      "locator": "CSV · 69번 레코드",
+      "title": "농민식품",
+      "text": "농민식품의 공장 대표 주소는 충청남도 서천군 판교면 판교리 221번지이다. 생산품은 아침이든든,미숫가루,찹쌀가루,도토리묵가루이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-70",
+      "source": "businesses",
+      "locator": "CSV · 70번 레코드",
+      "title": "농민식품 제2공장",
+      "text": "농민식품 제2공장의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 16 (농민식품)이다. 생산품은 도토리물,도토리전분이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-71",
+      "source": "businesses",
+      "locator": "CSV · 71번 레코드",
+      "title": "농업회사법인 길산산업 주식회사",
+      "text": "농업회사법인 길산산업 주식회사의 공장 대표 주소는 충청남도 서천군 서천읍 삼산북길 43-2이다. 생산품은 쌀이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-72",
+      "source": "businesses",
+      "locator": "CSV · 72번 레코드",
+      "title": "농업회사법인 제이에스푸드 주식회사",
+      "text": "농업회사법인 제이에스푸드 주식회사의 공장 대표 주소는 충청남도 서천군 한산면 한산향교길 33-9이다. 생산품은 시래기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-73",
+      "source": "businesses",
+      "locator": "CSV · 73번 레코드",
+      "title": "농업회사법인 주식회사 참두원",
+      "text": "농업회사법인 주식회사 참두원의 공장 대표 주소는 충청남도 서천군 한산면 동산리 409-23번지이다. 생산품은 한산소곡주이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-74",
+      "source": "businesses",
+      "locator": "CSV · 74번 레코드",
+      "title": "농업회사법인 판교 농민식품(주)",
+      "text": "농업회사법인 판교 농민식품(주)의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길14번길 23이다. 생산품은 도토리 면류이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-75",
+      "source": "businesses",
+      "locator": "CSV · 75번 레코드",
+      "title": "농업회사법인 판교농민식품(주)",
+      "text": "농업회사법인 판교농민식품(주)의 공장 대표 주소는 충청남도 서천군 판교면 대백제로 1953-6이다. 생산품은 콩가루이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-76",
+      "source": "businesses",
+      "locator": "CSV · 76번 레코드",
+      "title": "농업회사법인 한생 주식회사",
+      "text": "농업회사법인 한생 주식회사의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길28번길 117 (한생) (총 2 필지) 외 2필지이다. 생산품은 고추가루이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-77",
+      "source": "businesses",
+      "locator": "CSV · 77번 레코드",
+      "title": "농업회사법인 한생 주식회사",
+      "text": "농업회사법인 한생 주식회사의 공장 대표 주소는 충청남도 서천군 장항읍 원수리 450-58이다. 생산품은 들깨가루이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-78",
+      "source": "businesses",
+      "locator": "CSV · 78번 레코드",
+      "title": "농업회사법인 한생 주식회사 종천공장",
+      "text": "농업회사법인 한생 주식회사 종천공장의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길62번길 42-10이다. 생산품은 채소,야채이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-79",
+      "source": "businesses",
+      "locator": "CSV · 79번 레코드",
+      "title": "농업회사법인(주)해성",
+      "text": "농업회사법인(주)해성의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길 37-20이다. 생산품은 구운김 후레이크이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-80",
+      "source": "businesses",
+      "locator": "CSV · 80번 레코드",
+      "title": "다웅 태양광발전소",
+      "text": "다웅 태양광발전소의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 58 (다웅소재(주))이다. 생산품은 전기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-81",
+      "source": "businesses",
+      "locator": "CSV · 81번 레코드",
+      "title": "다웅소재주식회사",
+      "text": "다웅소재주식회사의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 58 (다웅소재(주))이다. 생산품은 활석분이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-82",
+      "source": "businesses",
+      "locator": "CSV · 82번 레코드",
+      "title": "대백제명주",
+      "text": "대백제명주의 공장 대표 주소는 충청남도 서천군 한산면 신성로 507-17, 1동이다. 생산품은 한산소곡주이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-83",
+      "source": "businesses",
+      "locator": "CSV · 83번 레코드",
+      "title": "대성금속공업",
+      "text": "대성금속공업의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길60번길 15이다. 생산품은 자동차부품이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-84",
+      "source": "businesses",
+      "locator": "CSV · 84번 레코드",
+      "title": "대원미곡종합처리장",
+      "text": "대원미곡종합처리장의 공장 대표 주소는 충청남도 서천군 마서면 장서로 373 (대원미곡종합처리장) (총 2 필지) 외 1필지이다. 생산품은 쌀이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-85",
+      "source": "businesses",
+      "locator": "CSV · 85번 레코드",
+      "title": "대주산업(주)장항공장",
+      "text": "대주산업(주)장항공장의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길 59 (장항읍) 외 1필지이다. 생산품은 배합사료이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-86",
+      "source": "businesses",
+      "locator": "CSV · 86번 레코드",
+      "title": "대주아스콘 주식회사",
+      "text": "대주아스콘 주식회사의 공장 대표 주소는 충청남도 서천군 기산면 장산로 1671 (기산면)이다. 생산품은 아스콘, 순환아스콘이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-87",
+      "source": "businesses",
+      "locator": "CSV · 87번 레코드",
+      "title": "대진레미콘(주)",
+      "text": "대진레미콘(주)의 공장 대표 주소는 충청남도 서천군 종천면 충서로 283 ((주)대진레미콘)이다. 생산품은 레미콘제품이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-88",
+      "source": "businesses",
+      "locator": "CSV · 88번 레코드",
+      "title": "대창물산",
+      "text": "대창물산의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길60번길 19이다. 생산품은 폴리에틸렌포장대이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-89",
+      "source": "businesses",
+      "locator": "CSV · 89번 레코드",
+      "title": "대한전기",
+      "text": "대한전기의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 37-8 (대한전기)이다. 생산품은 배전반,수전반 자동제어장치,스텐렌스가로등주이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-90",
+      "source": "businesses",
+      "locator": "CSV · 90번 레코드",
+      "title": "동남수산",
+      "text": "동남수산의 공장 대표 주소는 충청남도 서천군 마서면 장천로 487 (동남수산)이다. 생산품은 건멸치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-91",
+      "source": "businesses",
+      "locator": "CSV · 91번 레코드",
+      "title": "동방수산",
+      "text": "동방수산의 공장 대표 주소는 충청남도 서천군 종천면 갯벌체험로 1248-7이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-92",
+      "source": "businesses",
+      "locator": "CSV · 92번 레코드",
+      "title": "동백수산",
+      "text": "동백수산의 공장 대표 주소는 충청남도 서천군 서면 월하성길 74 (동맥민박) (총 2 필지) 외 1필지이다. 생산품은 건조김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-93",
+      "source": "businesses",
+      "locator": "CSV · 93번 레코드",
+      "title": "동서천농업협동조합",
+      "text": "동서천농업협동조합의 공장 대표 주소는 충청남도 서천군 화양면 화산로282번길 13 (동서천농협미곡처리장)이다. 생산품은 쌀이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-94",
+      "source": "businesses",
+      "locator": "CSV · 94번 레코드",
+      "title": "동신목재",
+      "text": "동신목재의 공장 대표 주소는 충청남도 서천군 마서면 송신로 362 (동신목재)이다. 생산품은 목재파렛트이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-95",
+      "source": "businesses",
+      "locator": "CSV · 95번 레코드",
+      "title": "동양수산",
+      "text": "동양수산의 공장 대표 주소는 충청남도 서천군 마서면 와석길 61이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-96",
+      "source": "businesses",
+      "locator": "CSV · 96번 레코드",
+      "title": "동인영어조합법인",
+      "text": "동인영어조합법인의 공장 대표 주소는 충청남도 서천군 서면 신합리 90-9 외 2필지이다. 생산품은 수산동물냉동품(냉동멸치)이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-97",
+      "source": "businesses",
+      "locator": "CSV · 97번 레코드",
+      "title": "동일방직(주)장항공장",
+      "text": "동일방직(주)장항공장의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길 42이다. 생산품은 면사,혼방사이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-98",
+      "source": "businesses",
+      "locator": "CSV · 98번 레코드",
+      "title": "동진수산",
+      "text": "동진수산의 공장 대표 주소는 충청남도 서천군 장항읍 원송로 59이다. 생산품은 건새우분말이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-99",
+      "source": "businesses",
+      "locator": "CSV · 99번 레코드",
+      "title": "따봉식품",
+      "text": "따봉식품의 공장 대표 주소는 충청남도 서천군 서면 도둔리 61-19번지이다. 생산품은 조미김,냉동수산(주꾸미,꽃게)이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-100",
+      "source": "businesses",
+      "locator": "CSV · 100번 레코드",
+      "title": "마마식품 주식회사",
+      "text": "마마식품 주식회사의 공장 대표 주소는 충청남도 서천군 서면 신월길 131-32이다. 생산품은 조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-101",
+      "source": "businesses",
+      "locator": "CSV · 101번 레코드",
+      "title": "명성수산",
+      "text": "명성수산의 공장 대표 주소는 충청남도 서천군 마서면 송신로 583이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-102",
+      "source": "businesses",
+      "locator": "CSV · 102번 레코드",
+      "title": "명성수산",
+      "text": "명성수산의 공장 대표 주소는 충청남도 서천군 서면 도둔리 산 18번지이다. 생산품은 김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-103",
+      "source": "businesses",
+      "locator": "CSV · 103번 레코드",
+      "title": "명진수산",
+      "text": "명진수산의 공장 대표 주소는 충청남도 서천군 장항읍 원수리 701번지이다. 생산품은 마른멸치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-104",
+      "source": "businesses",
+      "locator": "CSV · 104번 레코드",
+      "title": "명품모시식품영농조합법인",
+      "text": "명품모시식품영농조합법인의 공장 대표 주소는 충청남도 서천군 기산면 광암리 47-23번지 외 1필지이다. 생산품은 떡이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-105",
+      "source": "businesses",
+      "locator": "CSV · 105번 레코드",
+      "title": "민국레미콘(주)",
+      "text": "민국레미콘(주)의 공장 대표 주소는 충청남도 서천군 마서면 원송로 195-47이다. 생산품은 레미콘이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-106",
+      "source": "businesses",
+      "locator": "CSV · 106번 레코드",
+      "title": "바다로21",
+      "text": "바다로21의 공장 대표 주소는 충청남도 서천군 종천면 희리산길 131 ((주)바다로21) 외 2필지이다. 생산품은 조미구이김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-107",
+      "source": "businesses",
+      "locator": "CSV · 107번 레코드",
+      "title": "바다엔",
+      "text": "바다엔의 공장 대표 주소는 충청남도 서천군 마서면 송내리 457-2번지 외 1필지이다. 생산품은 멸치건조이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-108",
+      "source": "businesses",
+      "locator": "CSV · 108번 레코드",
+      "title": "백일수산",
+      "text": "백일수산의 공장 대표 주소는 충청남도 서천군 서면 도둔리 72-592번지 외 1필지이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-109",
+      "source": "businesses",
+      "locator": "CSV · 109번 레코드",
+      "title": "보영정밀화학공업(주)",
+      "text": "보영정밀화학공업(주)의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길14번길 27 ((주)보영화학)이다. 생산품은 고도표백분이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-110",
+      "source": "businesses",
+      "locator": "CSV · 110번 레코드",
+      "title": "복영냉동",
+      "text": "복영냉동의 공장 대표 주소는 충청남도 서천군 장항읍 장산로 306-7 (구내식당)이다. 생산품은 제빙이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-111",
+      "source": "businesses",
+      "locator": "CSV · 111번 레코드",
+      "title": "산돌수산",
+      "text": "산돌수산의 공장 대표 주소는 충청남도 서천군 비인면 갯벌체험로633번길 12이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-112",
+      "source": "businesses",
+      "locator": "CSV · 112번 레코드",
+      "title": "산정수산 4호",
+      "text": "산정수산 4호의 공장 대표 주소는 충청남도 서천군 서면 서인로716번길 15-12 외 1필지이다. 생산품은 김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-113",
+      "source": "businesses",
+      "locator": "CSV · 113번 레코드",
+      "title": "삼영 태양광발전소",
+      "text": "삼영 태양광발전소의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길62번길 42-7이다. 생산품은 전기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-114",
+      "source": "businesses",
+      "locator": "CSV · 114번 레코드",
+      "title": "삼영엔비테크",
+      "text": "삼영엔비테크의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길62번길 42-7이다. 생산품은 액체여과기,오수처리기기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-115",
+      "source": "businesses",
+      "locator": "CSV · 115번 레코드",
+      "title": "삼원에코그린",
+      "text": "삼원에코그린의 공장 대표 주소는 충청남도 서천군 문산면 판문로 652-8 (총 3 필지) 외 2필지이다. 생산품은 산기관,휠타이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-116",
+      "source": "businesses",
+      "locator": "CSV · 116번 레코드",
+      "title": "삼육영어조합법인",
+      "text": "삼육영어조합법인의 공장 대표 주소는 충청남도 서천군 마서면 송석리 448-1외1번지 외 1필지이다. 생산품은 김(마른김)이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-117",
+      "source": "businesses",
+      "locator": "CSV · 117번 레코드",
+      "title": "삼형수산",
+      "text": "삼형수산의 공장 대표 주소는 충청남도 서천군 서면 서인로 605 (서인로) (총 2 필지) 외 1필지이다. 생산품은 재래김,파래재래김,김방용김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-118",
+      "source": "businesses",
+      "locator": "CSV · 118번 레코드",
+      "title": "삼화양조장",
+      "text": "삼화양조장의 공장 대표 주소는 충청남도 서천군 한산면 갈숲길 21, 삼화양조장이다. 생산품은 소곡주이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-119",
+      "source": "businesses",
+      "locator": "CSV · 119번 레코드",
+      "title": "서원영어조합법인",
+      "text": "서원영어조합법인의 공장 대표 주소는 충청남도 서천군 서면 서인로379번길 3-21 (서원영어조합법인)이다. 생산품은 건뱅어포, 건멸치, 건새우, 김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-120",
+      "source": "businesses",
+      "locator": "CSV · 120번 레코드",
+      "title": "서천군농업기술센터 미생물비료공장",
+      "text": "서천군농업기술센터 미생물비료공장의 공장 대표 주소는 충청남도 서천군 마서면 계동리 87-1번지이다. 생산품은 미생물비료이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-121",
+      "source": "businesses",
+      "locator": "CSV · 121번 레코드",
+      "title": "서천군농업기술센터 보조사료공장",
+      "text": "서천군농업기술센터 보조사료공장의 공장 대표 주소는 충청남도 서천군 마서면 계동리 87-1 번지이다. 생산품은 사료이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-122",
+      "source": "businesses",
+      "locator": "CSV · 122번 레코드",
+      "title": "서천군농협쌀조합공동사업법인",
+      "text": "서천군농협쌀조합공동사업법인의 공장 대표 주소는 충청남도 서천군 화양면 금당리 283-5번지 외 8필지이다. 생산품은 백미, 현미이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-123",
+      "source": "businesses",
+      "locator": "CSV · 123번 레코드",
+      "title": "서천군청",
+      "text": "서천군청의 공장 대표 주소는 충청남도 서천군 마서면 원송로 189 (서천군위생처리장)이다. 생산품은 단미사료이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-124",
+      "source": "businesses",
+      "locator": "CSV · 124번 레코드",
+      "title": "서천농업협동조합",
+      "text": "서천농업협동조합의 공장 대표 주소는 충청남도 서천군 마서면 마서로 362 (서천농협유기물비료공장)이다. 생산품은 퇴비이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-125",
+      "source": "businesses",
+      "locator": "CSV · 125번 레코드",
+      "title": "서천맛김",
+      "text": "서천맛김의 공장 대표 주소는 충청남도 서천군 마서면 장천로 921-19 (서천맛김)이다. 생산품은 조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-126",
+      "source": "businesses",
+      "locator": "CSV · 126번 레코드",
+      "title": "서천수산식품",
+      "text": "서천수산식품의 공장 대표 주소는 충청남도 서천군 한산면 신성로 507-15이다. 생산품은 한산모시토하젓이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-127",
+      "source": "businesses",
+      "locator": "CSV · 127번 레코드",
+      "title": "서천수산업협동조합 백사어촌계",
+      "text": "서천수산업협동조합 백사어촌계의 공장 대표 주소는 충청남도 서천군 종천면 장천로 965-28 외 2필지이다. 생산품은 건조김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-128",
+      "source": "businesses",
+      "locator": "CSV · 128번 레코드",
+      "title": "서천해의 어업회사법인(주)",
+      "text": "서천해의 어업회사법인(주)의 공장 대표 주소는 충청남도 서천군 서면 신월길 8-10이다. 생산품은 조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-129",
+      "source": "businesses",
+      "locator": "CSV · 129번 레코드",
+      "title": "서천해초김(주)",
+      "text": "서천해초김(주)의 공장 대표 주소는 충청남도 서천군 마서면 송신로 313, (옥산리 794-2) 외 1필지이다. 생산품은 조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-130",
+      "source": "businesses",
+      "locator": "CSV · 130번 레코드",
+      "title": "서해안영어조합법인",
+      "text": "서해안영어조합법인의 공장 대표 주소는 충청남도 서천군 서면 서인로 656-46이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-131",
+      "source": "businesses",
+      "locator": "CSV · 131번 레코드",
+      "title": "서해종합식품",
+      "text": "서해종합식품의 공장 대표 주소는 충청남도 서천군 판교면 종판로887번길 58 (서해종합식품)이다. 생산품은 칡즙,포도즙,배즙이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-132",
+      "source": "businesses",
+      "locator": "CSV · 132번 레코드",
+      "title": "선승수산3",
+      "text": "선승수산3의 공장 대표 주소는 충청남도 서천군 서면 서인로 656-40, (도둔리 72-500) 외 2필지이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-133",
+      "source": "businesses",
+      "locator": "CSV · 133번 레코드",
+      "title": "선진레이버영어조합법인",
+      "text": "선진레이버영어조합법인의 공장 대표 주소는 충청남도 서천군 서면 서인로 656-38이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-134",
+      "source": "businesses",
+      "locator": "CSV · 134번 레코드",
+      "title": "선진수산영어조합법인",
+      "text": "선진수산영어조합법인의 공장 대표 주소는 충청남도 서천군 서면 서인로 656-42이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-135",
+      "source": "businesses",
+      "locator": "CSV · 135번 레코드",
+      "title": "성산에프앤비(주)",
+      "text": "성산에프앤비(주)의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길 123 (성산에프앤비(주))이다. 생산품은 수로관,블럭이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-136",
+      "source": "businesses",
+      "locator": "CSV · 136번 레코드",
+      "title": "성일호",
+      "text": "성일호의 공장 대표 주소는 충청남도 서천군 서면 도둔리 1037-4이다. 생산품은 마른멸치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-137",
+      "source": "businesses",
+      "locator": "CSV · 137번 레코드",
+      "title": "손모아식품",
+      "text": "손모아식품의 공장 대표 주소는 충청남도 서천군 시초면 시초로182번길 37이다. 생산품은 호박죽,쑥죽,냉면육수,모시한과이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-138",
+      "source": "businesses",
+      "locator": "CSV · 138번 레코드",
+      "title": "송진정밀공업",
+      "text": "송진정밀공업의 공장 대표 주소는 충청남도 서천군 장항읍 장마로 78 (송진공업)이다. 생산품은 착유기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-139",
+      "source": "businesses",
+      "locator": "CSV · 139번 레코드",
+      "title": "신성영어조합법인",
+      "text": "신성영어조합법인의 공장 대표 주소는 충청남도 서천군 장항읍 장산로 315 (신성영어조합법인)이다. 생산품은 농수축산물냉동품이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-140",
+      "source": "businesses",
+      "locator": "CSV · 140번 레코드",
+      "title": "신아수산",
+      "text": "신아수산의 공장 대표 주소는 충청남도 서천군 장항읍 성화로193번길 47-23이다. 생산품은 멸치,건어물이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-141",
+      "source": "businesses",
+      "locator": "CSV · 141번 레코드",
+      "title": "안동수산",
+      "text": "안동수산의 공장 대표 주소는 충청남도 서천군 장항읍 장산로 314-13 (안동수산서울센터)이다. 생산품은 수산물냉동품이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-142",
+      "source": "businesses",
+      "locator": "CSV · 142번 레코드",
+      "title": "안흥호",
+      "text": "안흥호의 공장 대표 주소는 충청남도 서천군 장항읍 장산로 516이다. 생산품은 건멸치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-143",
+      "source": "businesses",
+      "locator": "CSV · 143번 레코드",
+      "title": "앉은뱅이 소곡주",
+      "text": "앉은뱅이 소곡주의 공장 대표 주소는 충청남도 서천군 한산면 충절로1342번길 38-12이다. 생산품은 소곡주이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-144",
+      "source": "businesses",
+      "locator": "CSV · 144번 레코드",
+      "title": "양한물산영어조합법인",
+      "text": "양한물산영어조합법인의 공장 대표 주소는 충청남도 서천군 서면 서인로379번길 9-10 외 1필지이다. 생산품은 수산동물냉동품이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-145",
+      "source": "businesses",
+      "locator": "CSV · 145번 레코드",
+      "title": "어업회사법인 유건",
+      "text": "어업회사법인 유건의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길62번길 42-9이다. 생산품은 김발장이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-146",
+      "source": "businesses",
+      "locator": "CSV · 146번 레코드",
+      "title": "어업회사법인 청담 주식회사",
+      "text": "어업회사법인 청담 주식회사의 공장 대표 주소는 충청남도 서천군 서면 월리 421 외 1필지이다. 생산품은 조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-147",
+      "source": "businesses",
+      "locator": "CSV · 147번 레코드",
+      "title": "어업회사법인명품김주식회사",
+      "text": "어업회사법인명품김주식회사의 공장 대표 주소는 충청남도 서천군 종천면 희리산길 139이다. 생산품은 조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-148",
+      "source": "businesses",
+      "locator": "CSV · 148번 레코드",
+      "title": "어업회사법인천해식품주식회사",
+      "text": "어업회사법인천해식품주식회사의 공장 대표 주소는 충청남도 서천군 서면 신월길 131-17이다. 생산품은 조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-149",
+      "source": "businesses",
+      "locator": "CSV · 149번 레코드",
+      "title": "엘에스니꼬동제련(주)장항공장",
+      "text": "엘에스니꼬동제련(주)장항공장의 공장 대표 주소는 충청남도 서천군 장항읍 화송길 123 ((주)LG산전(장항공장))이다. 생산품은 전기동, 조황산니켈이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-150",
+      "source": "businesses",
+      "locator": "CSV · 150번 레코드",
+      "title": "엘에스메탈(주)장항사업장",
+      "text": "엘에스메탈(주)장항사업장의 공장 대표 주소는 충청남도 서천군 장항읍 화송길 123 외 1필지이다. 생산품은 동관, 스테인레스관이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-151",
+      "source": "businesses",
+      "locator": "CSV · 151번 레코드",
+      "title": "엘켐실리콘즈코리아 주식회사",
+      "text": "엘켐실리콘즈코리아 주식회사의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길28번길 4, 바젤케미(주) 외 6필지이다. 생산품은 건축용 외벽 발수제, 화장품용 젤이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-152",
+      "source": "businesses",
+      "locator": "CSV · 152번 레코드",
+      "title": "엠엔에프영농조합법인",
+      "text": "엠엔에프영농조합법인의 공장 대표 주소는 충청남도 서천군 마산면 한마로 528-63이다. 생산품은 산야초효소이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-153",
+      "source": "businesses",
+      "locator": "CSV · 153번 레코드",
+      "title": "연수중공업 유한회사",
+      "text": "연수중공업 유한회사의 공장 대표 주소는 충청남도 서천군 장항읍 장항로 258이다. 생산품은 강선건조 및 수리이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-154",
+      "source": "businesses",
+      "locator": "CSV · 154번 레코드",
+      "title": "영신식품",
+      "text": "영신식품의 공장 대표 주소는 충청남도 서천군 서면 갯벌체험로 10 (영신식품)이다. 생산품은 맛김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-155",
+      "source": "businesses",
+      "locator": "CSV · 155번 레코드",
+      "title": "영신식품",
+      "text": "영신식품의 공장 대표 주소는 충청남도 서천군 서면 신월길 131-22, 서면김가공특화단지이다. 생산품은 조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-156",
+      "source": "businesses",
+      "locator": "CSV · 156번 레코드",
+      "title": "영어조합법인은파",
+      "text": "영어조합법인은파의 공장 대표 주소는 충청남도 서천군 종천면 갯벌체험로 1314이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-157",
+      "source": "businesses",
+      "locator": "CSV · 157번 레코드",
+      "title": "오대산식품",
+      "text": "오대산식품의 공장 대표 주소는 충청남도 서천군 화양면 장산로 1385-27이다. 생산품은 냉면육수(야채및육류중탕액)이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-158",
+      "source": "businesses",
+      "locator": "CSV · 158번 레코드",
+      "title": "옥산기업",
+      "text": "옥산기업의 공장 대표 주소는 충청남도 서천군 마서면 송신로 307 (우산기업) (총 2 필지) 외 1필지이다. 생산품은 시멘트벽돌이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-159",
+      "source": "businesses",
+      "locator": "CSV · 159번 레코드",
+      "title": "왕가어업회사법인(주)",
+      "text": "왕가어업회사법인(주)의 공장 대표 주소는 충청남도 서천군 서면 신월길 131-19이다. 생산품은 조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-160",
+      "source": "businesses",
+      "locator": "CSV · 160번 레코드",
+      "title": "우일수산(주)",
+      "text": "우일수산(주)의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길 64 (장항읍) 외 1필지이다. 생산품은 냉동새우,증숙감자,건조어물,햄버거용패티,위생홍고추F이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-161",
+      "source": "businesses",
+      "locator": "CSV · 161번 레코드",
+      "title": "우일수산(주) 장항1지점",
+      "text": "우일수산(주) 장항1지점의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길28번길 8-1 외 1필지이다. 생산품은 증숙감자,증숙고구마,쌀분말,오징어분말이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-162",
+      "source": "businesses",
+      "locator": "CSV · 162번 레코드",
+      "title": "우일수산(주) 장항2지점",
+      "text": "우일수산(주) 장항2지점의 공장 대표 주소는 충청남도 서천군 장항읍 장산로 327 외 2필지이다. 생산품은 증숙감자,건새우분말,증숙고구마, 냉동새우이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-163",
+      "source": "businesses",
+      "locator": "CSV · 163번 레코드",
+      "title": "우일식품",
+      "text": "우일식품의 공장 대표 주소는 충청남도 서천군 마서면 마서로685번길 1 (우일식품)이다. 생산품은 조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-164",
+      "source": "businesses",
+      "locator": "CSV · 164번 레코드",
+      "title": "우일축산",
+      "text": "우일축산의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길 64 (장항읍) 외 1필지이다. 생산품은 절단육이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-165",
+      "source": "businesses",
+      "locator": "CSV · 165번 레코드",
+      "title": "우진수산",
+      "text": "우진수산의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길 37-19 (우진주산)이다. 생산품은 수산물가공품이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-166",
+      "source": "businesses",
+      "locator": "CSV · 166번 레코드",
+      "title": "우현 1.2.3.호 태양광발전소",
+      "text": "우현 1.2.3.호 태양광발전소의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길62번길 42-13이다. 생산품은 태양광이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-167",
+      "source": "businesses",
+      "locator": "CSV · 167번 레코드",
+      "title": "월명수산",
+      "text": "월명수산의 공장 대표 주소는 충청남도 서천군 종천면 갯벌체험로 1248-5이다. 생산품은 건조김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-168",
+      "source": "businesses",
+      "locator": "CSV · 168번 레코드",
+      "title": "유민이엔지",
+      "text": "유민이엔지의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길62번길 19-31이다. 생산품은 무해체 거푸집이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-169",
+      "source": "businesses",
+      "locator": "CSV · 169번 레코드",
+      "title": "유한회사 금성다온물류",
+      "text": "유한회사 금성다온물류의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길62번길 19-31이다. 생산품은 마스크이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-170",
+      "source": "businesses",
+      "locator": "CSV · 170번 레코드",
+      "title": "유한회사 대원",
+      "text": "유한회사 대원의 공장 대표 주소는 충청남도 서천군 장항읍 장산로 149 (한솔제지(장항공장))이다. 생산품은 백상지, 아트지이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-171",
+      "source": "businesses",
+      "locator": "CSV · 171번 레코드",
+      "title": "유한회사 서광라이팅",
+      "text": "유한회사 서광라이팅의 공장 대표 주소는 충청남도 서천군 기산면 화출길35번길 69이다. 생산품은 LED 등기구, 경관조명기구, 가로등주, 기타조명장치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-172",
+      "source": "businesses",
+      "locator": "CSV · 172번 레코드",
+      "title": "유한회사 서광라이팅(장항농공단지지점)",
+      "text": "유한회사 서광라이팅(장항농공단지지점)의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길28번길 100이다. 생산품은 LED 등기구, 가로등주,LED경관조명,조형물,울타리,LED램프이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-173",
+      "source": "businesses",
+      "locator": "CSV · 173번 레코드",
+      "title": "유한회사 원화산업",
+      "text": "유한회사 원화산업의 공장 대표 주소는 충청남도 서천군 종천면 석촌리 676번지이다. 생산품은 액체펌프,수문밸브,전동기,감속기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-174",
+      "source": "businesses",
+      "locator": "CSV · 174번 레코드",
+      "title": "유한회사 참마을",
+      "text": "유한회사 참마을의 공장 대표 주소는 충청남도 서천군 마서면 도삼리 524-3번지이다. 생산품은 육가공 포장품, 모시떡, 돈가스 포장품 등이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-175",
+      "source": "businesses",
+      "locator": "CSV · 175번 레코드",
+      "title": "유한회사 한수산업",
+      "text": "유한회사 한수산업의 공장 대표 주소는 충청남도 서천군 종천면 석촌리 676번지이다. 생산품은 수문,펌프,호이스트,제진기,수문권양기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-176",
+      "source": "businesses",
+      "locator": "CSV · 176번 레코드",
+      "title": "유한회사 해랑",
+      "text": "유한회사 해랑의 공장 대표 주소는 충청남도 서천군 서면 월리 433-1번지 김가공특화단지이다. 생산품은 조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-177",
+      "source": "businesses",
+      "locator": "CSV · 177번 레코드",
+      "title": "일동수산",
+      "text": "일동수산의 공장 대표 주소는 충청남도 서천군 마서면 마서로685번길 48이다. 생산품은 건해태이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-178",
+      "source": "businesses",
+      "locator": "CSV · 178번 레코드",
+      "title": "일신정공",
+      "text": "일신정공의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 22 (코니코철강(주))이다. 생산품은 기어, 공작기계, 자동차부품이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-179",
+      "source": "businesses",
+      "locator": "CSV · 179번 레코드",
+      "title": "장광호",
+      "text": "장광호의 공장 대표 주소는 충청남도 서천군 장항읍 장산로 548이다. 생산품은 마른멸치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-180",
+      "source": "businesses",
+      "locator": "CSV · 180번 레코드",
+      "title": "장산방수산업(주)",
+      "text": "장산방수산업(주)의 공장 대표 주소는 충청남도 서천군 서면 도둔리 72-222번지이다. 생산품은 분말방수제이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-181",
+      "source": "businesses",
+      "locator": "CSV · 181번 레코드",
+      "title": "장한산업",
+      "text": "장한산업의 공장 대표 주소는 충청남도 서천군 장항읍 화송길 90 ((주)BH산업) (총 2 필지) 외 2필지이다. 생산품은 동 스크랩이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-182",
+      "source": "businesses",
+      "locator": "CSV · 182번 레코드",
+      "title": "정일수산",
+      "text": "정일수산의 공장 대표 주소는 충청남도 서천군 마서면 마서로685번길 60-4 (대해물산)이다. 생산품은 건해태이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-183",
+      "source": "businesses",
+      "locator": "CSV · 183번 레코드",
+      "title": "제7호 한성호",
+      "text": "제7호 한성호의 공장 대표 주소는 충청남도 서천군 장항읍 옥산리 705-2번지이다. 생산품은 건멸치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-184",
+      "source": "businesses",
+      "locator": "CSV · 184번 레코드",
+      "title": "제일멸치건조장",
+      "text": "제일멸치건조장의 공장 대표 주소는 충청남도 서천군 비인면 다사리 산 13번지이다. 생산품은 건멸치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-185",
+      "source": "businesses",
+      "locator": "CSV · 185번 레코드",
+      "title": "제일수산",
+      "text": "제일수산의 공장 대표 주소는 충청남도 서천군 장항읍 화천길 1이다. 생산품은 건멸치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-186",
+      "source": "businesses",
+      "locator": "CSV · 186번 레코드",
+      "title": "종진수산",
+      "text": "종진수산의 공장 대표 주소는 충청남도 서천군 서면 도둔길 139-3이다. 생산품은 마른멸치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-187",
+      "source": "businesses",
+      "locator": "CSV · 187번 레코드",
+      "title": "주식회사 고수록식품",
+      "text": "주식회사 고수록식품의 공장 대표 주소는 충청남도 서천군 비인면 서인로1117번길 9-11 외 1필지이다. 생산품은 떡류이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-188",
+      "source": "businesses",
+      "locator": "CSV · 188번 레코드",
+      "title": "주식회사 백제명가주조",
+      "text": "주식회사 백제명가주조의 공장 대표 주소는 충청남도 서천군 한산면 충절로 1133이다. 생산품은 한산소곡주이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-189",
+      "source": "businesses",
+      "locator": "CSV · 189번 레코드",
+      "title": "주식회사 서천김에프엠비",
+      "text": "주식회사 서천김에프엠비의 공장 대표 주소는 충청남도 서천군 서면 서인로 620 외 4필지이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-190",
+      "source": "businesses",
+      "locator": "CSV · 190번 레코드",
+      "title": "주식회사 서천한산식품",
+      "text": "주식회사 서천한산식품의 공장 대표 주소는 충청남도 서천군 한산면 한마로121번길 7-3이다. 생산품은 김치류,젓갈류이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-191",
+      "source": "businesses",
+      "locator": "CSV · 191번 레코드",
+      "title": "주식회사 연우",
+      "text": "주식회사 연우의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 57이다. 생산품은 물휴지, 점보롤화장지, 태양광전기발전이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-192",
+      "source": "businesses",
+      "locator": "CSV · 192번 레코드",
+      "title": "주식회사 우정이엔지",
+      "text": "주식회사 우정이엔지의 공장 대표 주소는 충청남도 서천군 종천면 충서로 262-27이다. 생산품은 산업용건조기, 산엉용 난방보일러 및 방열기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-193",
+      "source": "businesses",
+      "locator": "CSV · 193번 레코드",
+      "title": "주식회사 이엠테크",
+      "text": "주식회사 이엠테크의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길14번길 48이다. 생산품은 배전반,자동제어반,계장제어장치,가로등주이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-194",
+      "source": "businesses",
+      "locator": "CSV · 194번 레코드",
+      "title": "주식회사 지원테크",
+      "text": "주식회사 지원테크의 공장 대표 주소는 충청남도 서천군 종천면 석촌리 666이다. 생산품은 마스크이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-195",
+      "source": "businesses",
+      "locator": "CSV · 195번 레코드",
+      "title": "주식회사 창원실업",
+      "text": "주식회사 창원실업의 공장 대표 주소는 충청남도 서천군 기산면 원길길 25 (총 2 필지) 외 1필지이다. 생산품은 알미늄창호이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-196",
+      "source": "businesses",
+      "locator": "CSV · 196번 레코드",
+      "title": "주식회사 청화농산 종천공장",
+      "text": "주식회사 청화농산 종천공장의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길62번길 42-10 1층 부4이다. 생산품은 고춧가루이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-197",
+      "source": "businesses",
+      "locator": "CSV · 197번 레코드",
+      "title": "주식회사 태경비케이 장항공장",
+      "text": "주식회사 태경비케이 장항공장의 공장 대표 주소는 충청남도 서천군 장항읍 장산로 149 (한솔제지(장항공장)) (총 13 필지)이다. 생산품은 경질탄산칼슘이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-198",
+      "source": "businesses",
+      "locator": "CSV · 198번 레코드",
+      "title": "주식회사 트래닛",
+      "text": "주식회사 트래닛의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길32번길 14 (종천면) 외 2필지이다. 생산품은 충진칩, 자동차 카매트이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-199",
+      "source": "businesses",
+      "locator": "CSV · 199번 레코드",
+      "title": "주식회사 티엠",
+      "text": "주식회사 티엠의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길32번길 14 외 1필지이다. 생산품은 탄성포장재 등이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-200",
+      "source": "businesses",
+      "locator": "CSV · 200번 레코드",
+      "title": "주식회사 푸드향",
+      "text": "주식회사 푸드향의 공장 대표 주소는 충청남도 서천군 문산면 신농길 178이다. 생산품은 구운소금,오리알이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-201",
+      "source": "businesses",
+      "locator": "CSV · 201번 레코드",
+      "title": "주식회사 푸른식품",
+      "text": "주식회사 푸른식품의 공장 대표 주소는 충청남도 서천군 종천면 갯벌체험로 1105-18이다. 생산품은 마른 김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-202",
+      "source": "businesses",
+      "locator": "CSV · 202번 레코드",
+      "title": "주식회사 피씨테크",
+      "text": "주식회사 피씨테크의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길14번길 68 (종천면)이다. 생산품은 산업처리제어장비 외(냉각탑)이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-203",
+      "source": "businesses",
+      "locator": "CSV · 203번 레코드",
+      "title": "주식회사 항주 제2공장",
+      "text": "주식회사 항주 제2공장의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길 37-20이다. 생산품은 고추가루, 구운김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-204",
+      "source": "businesses",
+      "locator": "CSV · 204번 레코드",
+      "title": "지오그린텍주식회사",
+      "text": "지오그린텍주식회사의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길28번길 50 외 1필지이다. 생산품은 단미사료,복합비료이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-205",
+      "source": "businesses",
+      "locator": "CSV · 205번 레코드",
+      "title": "진미수산",
+      "text": "진미수산의 공장 대표 주소는 충청남도 서천군 마서면 송신로 571 (진미수산) (총 3 필지) 외 2필지이다. 생산품은 해태건조,맛김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-206",
+      "source": "businesses",
+      "locator": "CSV · 206번 레코드",
+      "title": "진성기건",
+      "text": "진성기건의 공장 대표 주소는 충청남도 서천군 장항읍 원수리 923-7번지이다. 생산품은 창호금속구조제이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-207",
+      "source": "businesses",
+      "locator": "CSV · 207번 레코드",
+      "title": "진일수산",
+      "text": "진일수산의 공장 대표 주소는 충청남도 서천군 마서면 죽산리 403-9 외 5필지이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-208",
+      "source": "businesses",
+      "locator": "CSV · 208번 레코드",
+      "title": "진일수산",
+      "text": "진일수산의 공장 대표 주소는 충청남도 서천군 마서면 마서로685번길 26-2이다. 생산품은 건해태이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-209",
+      "source": "businesses",
+      "locator": "CSV · 209번 레코드",
+      "title": "창성수산",
+      "text": "창성수산의 공장 대표 주소는 충청남도 서천군 마서면 송신로 586-10이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-210",
+      "source": "businesses",
+      "locator": "CSV · 210번 레코드",
+      "title": "창신호",
+      "text": "창신호의 공장 대표 주소는 충청남도 서천군 종천면 갯벌체험로 1307이다. 생산품은 건멸치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-211",
+      "source": "businesses",
+      "locator": "CSV · 211번 레코드",
+      "title": "창원수산",
+      "text": "창원수산의 공장 대표 주소는 충청남도 서천군 장항읍 장마로 188-1이다. 생산품은 건멸치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-212",
+      "source": "businesses",
+      "locator": "CSV · 212번 레코드",
+      "title": "창원호",
+      "text": "창원호의 공장 대표 주소는 충청남도 서천군 서면 부원길 559이다. 생산품은 건멸치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-213",
+      "source": "businesses",
+      "locator": "CSV · 213번 레코드",
+      "title": "천해 태양광발전소",
+      "text": "천해 태양광발전소의 공장 대표 주소는 충청남도 서천군 서면 신월길 131-17이다. 생산품은 태양광 발전이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-214",
+      "source": "businesses",
+      "locator": "CSV · 214번 레코드",
+      "title": "청종씨푸드",
+      "text": "청종씨푸드의 공장 대표 주소는 충청남도 서천군 마서면 옥남길 199이다. 생산품은 건어물(새우,멸치)이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-215",
+      "source": "businesses",
+      "locator": "CSV · 215번 레코드",
+      "title": "충남마른김가공수산업협동조합",
+      "text": "충남마른김가공수산업협동조합의 공장 대표 주소는 충청남도 서천군 서면 신월길 131-9이다. 생산품은 조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-216",
+      "source": "businesses",
+      "locator": "CSV · 216번 레코드",
+      "title": "충남조선소",
+      "text": "충남조선소의 공장 대표 주소는 충청남도 서천군 장항읍 장항로280번길 25이다. 생산품은 선박건조, 수리이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-217",
+      "source": "businesses",
+      "locator": "CSV · 217번 레코드",
+      "title": "태창금속(주)",
+      "text": "태창금속(주)의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길60번길 10 외 2필지이다. 생산품은 자동차부품이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-218",
+      "source": "businesses",
+      "locator": "CSV · 218번 레코드",
+      "title": "태흥산업",
+      "text": "태흥산업의 공장 대표 주소는 충청남도 서천군 장항읍 신창서로 41 (계동산업)이다. 생산품은 스크린인쇄이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-219",
+      "source": "businesses",
+      "locator": "CSV · 219번 레코드",
+      "title": "텃밭영농조합법인",
+      "text": "텃밭영농조합법인의 공장 대표 주소는 충청남도 서천군 기산면 화산로 605이다. 생산품은 김치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-220",
+      "source": "businesses",
+      "locator": "CSV · 220번 레코드",
+      "title": "판교농민영농조합법인",
+      "text": "판교농민영농조합법인의 공장 대표 주소는 충청남도 서천군 판교면 대백제로 1953-6이다. 생산품은 도토리약주이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-221",
+      "source": "businesses",
+      "locator": "CSV · 221번 레코드",
+      "title": "판교농민영농조합법인",
+      "text": "판교농민영농조합법인의 공장 대표 주소는 충청남도 서천군 판교면 판교리 223-1번지 외 2필지이다. 생산품은 도토리묵이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-222",
+      "source": "businesses",
+      "locator": "CSV · 222번 레코드",
+      "title": "판교농협가공공장",
+      "text": "판교농협가공공장의 공장 대표 주소는 충청남도 서천군 판교면 종판로901번길 51 (판교농협도토리묵가공공장) 외 3필지이다. 생산품은 도토리녹말, 도토리묵이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-223",
+      "source": "businesses",
+      "locator": "CSV · 223번 레코드",
+      "title": "평택산업(주)서천공장",
+      "text": "평택산업(주)서천공장의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길32번길 21이다. 생산품은 절삭공구이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-224",
+      "source": "businesses",
+      "locator": "CSV · 224번 레코드",
+      "title": "평화수산",
+      "text": "평화수산의 공장 대표 주소는 충청남도 서천군 종천면 장천로 957이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-225",
+      "source": "businesses",
+      "locator": "CSV · 225번 레코드",
+      "title": "푸르미농산",
+      "text": "푸르미농산의 공장 대표 주소는 충청남도 서천군 마서면 당선리 160-1번지 외 1필지이다. 생산품은 시래기,우거지이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-226",
+      "source": "businesses",
+      "locator": "CSV · 226번 레코드",
+      "title": "하나수산",
+      "text": "하나수산의 공장 대표 주소는 충청남도 서천군 비인면 갯벌체험로 869-32이다. 생산품은 건조김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-227",
+      "source": "businesses",
+      "locator": "CSV · 227번 레코드",
+      "title": "하이1 태양광발전소",
+      "text": "하이1 태양광발전소의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 44-1이다. 생산품은 전기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-228",
+      "source": "businesses",
+      "locator": "CSV · 228번 레코드",
+      "title": "하이2 태양광발전소",
+      "text": "하이2 태양광발전소의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 44-1이다. 생산품은 전기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-229",
+      "source": "businesses",
+      "locator": "CSV · 229번 레코드",
+      "title": "하이조선",
+      "text": "하이조선의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길 44-1 (그린프러스비치)이다. 생산품은 어장선, 메이저보트, 요선(낚시배)이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-230",
+      "source": "businesses",
+      "locator": "CSV · 230번 레코드",
+      "title": "한국내화(주)",
+      "text": "한국내화(주)의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길32번길 11이다. 생산품은 납석파우더,해포석이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-231",
+      "source": "businesses",
+      "locator": "CSV · 231번 레코드",
+      "title": "한산모시 플러스",
+      "text": "한산모시 플러스의 공장 대표 주소는 충청남도 서천군 한산면 신성로 507-17, 2동이다. 생산품은 한산모시송편이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-232",
+      "source": "businesses",
+      "locator": "CSV · 232번 레코드",
+      "title": "한산모시떡명가",
+      "text": "한산모시떡명가의 공장 대표 주소는 충청남도 서천군 한산면 충절로 1137이다. 생산품은 한산모시송편,떡국떡이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-233",
+      "source": "businesses",
+      "locator": "CSV · 233번 레코드",
+      "title": "한산모시소곡주",
+      "text": "한산모시소곡주의 공장 대표 주소는 충청남도 서천군 한산면 한마로 25이다. 생산품은 소곡주이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-234",
+      "source": "businesses",
+      "locator": "CSV · 234번 레코드",
+      "title": "한산벽돌",
+      "text": "한산벽돌의 공장 대표 주소는 충청남도 서천군 한산면 한마로 31 (한산콘크리트(주))이다. 생산품은 콘크리트2차제품이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-235",
+      "source": "businesses",
+      "locator": "CSV · 235번 레코드",
+      "title": "한산소곡주양조장",
+      "text": "한산소곡주양조장의 공장 대표 주소는 충청남도 서천군 한산면 지현리 66-9번지 외 1필지 외 1필지이다. 생산품은 민속주류이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-236",
+      "source": "businesses",
+      "locator": "CSV · 236번 레코드",
+      "title": "한산소곡주호암제조소",
+      "text": "한산소곡주호암제조소의 공장 대표 주소는 충청남도 서천군 한산면 한마로135번길 45-39 외 1필지이다. 생산품은 탁주이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-237",
+      "source": "businesses",
+      "locator": "CSV · 237번 레코드",
+      "title": "한산케미칼(주)",
+      "text": "한산케미칼(주)의 공장 대표 주소는 충청남도 서천군 화양면 화한로 419-1 외 3필지이다. 생산품은 스치로풀이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-238",
+      "source": "businesses",
+      "locator": "CSV · 238번 레코드",
+      "title": "한산콘크리트(주)",
+      "text": "한산콘크리트(주)의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길 112-9, 원수2농공단지 3-1지구 외 2필지이다. 생산품은 콘크리트타일외 5종이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-239",
+      "source": "businesses",
+      "locator": "CSV · 239번 레코드",
+      "title": "한산항아리소곡주",
+      "text": "한산항아리소곡주의 공장 대표 주소는 충청남도 서천군 한산면 한마로81번길 17-1이다. 생산품은 소곡주이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-240",
+      "source": "businesses",
+      "locator": "CSV · 240번 레코드",
+      "title": "한성기계공업사",
+      "text": "한성기계공업사의 공장 대표 주소는 충청남도 서천군 장항읍 장항로196번길 17이다. 생산품은 기어,샤우트,권양기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-241",
+      "source": "businesses",
+      "locator": "CSV · 241번 레코드",
+      "title": "한솔제지(주)장항공장",
+      "text": "한솔제지(주)장항공장의 공장 대표 주소는 충청남도 서천군 장항읍 장산로 149 (한솔제지(장항공장))이다. 생산품은 백상지, 아트지이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-242",
+      "source": "businesses",
+      "locator": "CSV · 242번 레코드",
+      "title": "한울이엔텍(주)",
+      "text": "한울이엔텍(주)의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길14번길 48, (석촌리 484-4)이다. 생산품은 액체펌프, 산업용송풍기 및 배기장치, 액체여과기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-243",
+      "source": "businesses",
+      "locator": "CSV · 243번 레코드",
+      "title": "해가마을영농조합법인",
+      "text": "해가마을영농조합법인의 공장 대표 주소는 충청남도 서천군 마서면 합전길 72 외 1필지이다. 생산품은 된장,피클이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-244",
+      "source": "businesses",
+      "locator": "CSV · 244번 레코드",
+      "title": "해돋이맛김",
+      "text": "해돋이맛김의 공장 대표 주소는 충청남도 서천군 서면 공암남촌길 124-7이다. 생산품은 조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-245",
+      "source": "businesses",
+      "locator": "CSV · 245번 레코드",
+      "title": "해락원 영어조합법인",
+      "text": "해락원 영어조합법인의 공장 대표 주소는 충청남도 서천군 비인면 비인로201번길 79이다. 생산품은 조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-246",
+      "source": "businesses",
+      "locator": "CSV · 246번 레코드",
+      "title": "해미S&F영어조합법인",
+      "text": "해미S&F영어조합법인의 공장 대표 주소는 충청남도 서천군 서면 신월길 131-23 외 1필지이다. 생산품은 조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-247",
+      "source": "businesses",
+      "locator": "CSV · 247번 레코드",
+      "title": "해밀수산",
+      "text": "해밀수산의 공장 대표 주소는 충청남도 서천군 비인면 갯벌체험로 837 (해밀수산) (총 2 필지) 외 1필지이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-248",
+      "source": "businesses",
+      "locator": "CSV · 248번 레코드",
+      "title": "해본 태양광발전소",
+      "text": "해본 태양광발전소의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길32번길 31-16, (주1동)이다. 생산품은 태양광발전이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-249",
+      "source": "businesses",
+      "locator": "CSV · 249번 레코드",
+      "title": "해본3호 태양광발전소",
+      "text": "해본3호 태양광발전소의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길32번길 31-16이다. 생산품은 전기이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-250",
+      "source": "businesses",
+      "locator": "CSV · 250번 레코드",
+      "title": "해본조선",
+      "text": "해본조선의 공장 대표 주소는 충청남도 서천군 종천면 종천공단길32번길 31-16 (해본조선소) (총 2 필지) 외 1필지이다. 생산품은 F.R.P선박이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-251",
+      "source": "businesses",
+      "locator": "CSV · 251번 레코드",
+      "title": "해영수산",
+      "text": "해영수산의 공장 대표 주소는 충청남도 서천군 서면 부원길 527이다. 생산품은 마른멸치이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-252",
+      "source": "businesses",
+      "locator": "CSV · 252번 레코드",
+      "title": "해인영어조합법인",
+      "text": "해인영어조합법인의 공장 대표 주소는 충청남도 서천군 비인면 충서로 1300-1이다. 생산품은 까나리액젓,조미김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-253",
+      "source": "businesses",
+      "locator": "CSV · 253번 레코드",
+      "title": "헤가코퍼레이션",
+      "text": "헤가코퍼레이션의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길 80-9이다. 생산품은 가위(재단용)이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-254",
+      "source": "businesses",
+      "locator": "CSV · 254번 레코드",
+      "title": "현대수산",
+      "text": "현대수산의 공장 대표 주소는 충청남도 서천군 비인면 갯벌체험로 929 (현대수산) 외 2필지이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-255",
+      "source": "businesses",
+      "locator": "CSV · 255번 레코드",
+      "title": "형제수산",
+      "text": "형제수산의 공장 대표 주소는 충청남도 서천군 마서면 장천로 907 외 3필지이다. 생산품은 마른김이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-256",
+      "source": "businesses",
+      "locator": "CSV · 256번 레코드",
+      "title": "화영식품",
+      "text": "화영식품의 공장 대표 주소는 충청남도 서천군 서면 도둔길 83이다. 생산품은 생칼국수,김칼국수,새우칼국수이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-257",
+      "source": "businesses",
+      "locator": "CSV · 257번 레코드",
+      "title": "후암석재주식회사",
+      "text": "후암석재주식회사의 공장 대표 주소는 충청남도 서천군 장항읍 장항공단길 97 (후암석재) 외 1필지이다. 생산품은 석재, 경계석이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "businesses-258",
+      "source": "businesses",
+      "locator": "CSV · 258번 레코드",
+      "title": "희리산 다원",
+      "text": "희리산 다원의 공장 대표 주소는 충청남도 서천군 종천면 산천길106번길 11이다. 생산품은 된장,고추장,매실,오미자,녹차이다. 외국인 고용 여부와 교대시간·통근편은 사업장 확인이 필요하다.",
+      "vi": "",
+      "tags": "서천 기업 사업장 공장 주소 통근 상담 방문"
+    },
+    {
+      "id": "vacant-study-seocheon",
+      "source": "vacant-study",
+      "locator": "정책지도 통권 43호 · 02. 시군별 빈집수 변화",
+      "title": "충남 빈집 실태 변화와 향후 정비 방향",
+      "text": "충남연구원이 정리한 2024년 빈집 행정조사에서 서천군 빈집은 672채였다. 조사 물량을 근거로 임대 가능 여부를 판단하려면 실제 주택 상태와 소유자 동의를 확인해야 한다.",
+      "vi": "",
+      "tags": "빈집 실태조사 현황 유휴공간 서천군 몇 채 통계"
+    },
+    {
+      "id": "vacant-bank-snapshot",
+      "source": "vacant-bank",
+      "locator": "충청남도 → 서천군 → 거래 중",
+      "title": "그린대로 농촌 빈집은행 거래 목록",
+      "text": "2026-11-18 조회 당시 그린대로 서천군 거래 중 빈집은 6건이며 모두 매매였다. 실제 계약 가능 상태는 조회 시점과 소유자 의사에 따라 달라진다.",
+      "vi": "",
+      "tags": "그린대로 농촌 빈집은행 임대 매매 실매물 거래 목록 임차"
+    },
+    {
+      "id": "building-use",
+      "source": "building",
+      "locator": "표제부·층별개요·전유부 API 명세",
+      "title": "건축HUB 건축물대장정보",
+      "text": "건축물대장의 표제부·층별개요·전유부에서 해당 건물과 층·호실의 용도를 확인할 수 있다. 상가 위층은 제안하려는 호실의 주거 용도를 확인하고, 실제 상태·임대 동의도 현장 기록에 남긴다.",
+      "vi": "",
+      "tags": "주거용도 건축물대장 공실 상가 층 호실 안전 소유자 임대동의 cơi nới nhà ở"
+    },
+    {
+      "id": "transit-stop",
+      "source": "transit",
+      "locator": "정류장 정보 · 서비스 설명",
+      "title": "서천군 교통정보 조회 서비스",
+      "text": "서천군 교통정보 API의 핵심 자료는 버스 정류장 이름·번호·주소다. 실제 귀가편 확인에는 교대 종료 시각, 노선 또는 셔틀의 운행 시간과 요일, 승차 장소를 별도로 확인해야 한다.",
+      "vi": "",
+      "tags": "통근 막차 야간 버스 정류장 셔틀 귀가 환승 근무 교대 시간표 xe về ca đêm"
+    },
+    {
+      "id": "rent-benchmark",
+      "source": "rent",
+      "locator": "전월세 실거래가 공개 자료 · API 설명",
+      "title": "단독·다가구 전월세 실거래가",
+      "text": "단독·다가구 전월세 자료는 신고·확정일자 기반 계약 이력으로 임대료 비교에 활용한다. 단독·다가구 지번은 일부만 공개되며 실제 매물의 임대 비용은 해당 계약 조건을 확인한다.",
+      "vi": "",
+      "tags": "단독 다가구 월세 실거래가 임대료 시세 비용 보증금 예산"
+    },
+    {
+      "id": "change-use-p1",
+      "source": "change-use",
+      "locator": "별지 제6호 서식 · PDF 1쪽",
+      "title": "건축·대수선·용도변경(변경)신고서",
+      "text": "용도변경 신고서에는 대지 위치와 건축주, 건축물 주용도 등이 들어간다. 상가를 주거로 바꾸는 후보는 건축물대장과 해당 절차를 관할 건축 부서에 확인한다.",
+      "vi": "",
+      "tags": "상가 주거 용도변경 신고 허가 제6호 건축물"
+    },
+    {
+      "id": "law36-deadline",
+      "source": "law36",
+      "locator": "제36조 제1항",
+      "title": "출입국관리법 제36조 체류지 변경의 신고",
+      "text": "등록외국인이 체류지를 바꾸면 실제 전입한 날부터 15일 이내에 새 체류지 관할 시·군·구, 읍·면·동 또는 출입국·외국인관서에 신고한다. 계약일은 실제 전입일과 구분한다.",
+      "vi": "Người nước ngoài đã đăng ký phải khai báo thay đổi nơi cư trú trong vòng 15 ngày kể từ ngày thực tế chuyển đến địa chỉ mới.",
+      "tags": "외국인 이사 체류지 변경신고 주소 전입 기한 며칠 언제 어디 접수 thay đổi nơi cư trú thời hạn bao lâu"
+    },
+    {
+      "id": "rule49-route",
+      "source": "rule49",
+      "locator": "제49조의3 제1항·제2항",
+      "title": "출입국관리법 시행규칙 제49조의3",
+      "text": "체류지 변경신고의 출입국관서 접수에는 별지 제34호 계열(제34호·제34호의2·3), 군청·읍면 접수에는 별지 제34호의4~8을 사용한다. 새 주소는 임대차계약서 등 체류지 이전 증빙으로 확인한다.",
+      "vi": "",
+      "tags": "체류지변경 군청 읍사무소 면사무소 출입국 접수 양식 별지 34호의6 chứng minh địa chỉ"
+    },
+    {
+      "id": "gov24-proof",
+      "source": "gov24",
+      "locator": "제출 서류 · 본인 신청",
+      "title": "정부24 외국인 체류지변경신고",
+      "text": "외국인 체류지 변경을 본인이 신청하는 경우 여권 또는 외국인등록증과 체류지 입증 서류를 준비한다. 본인 명의 임대차계약서, 숙소제공확인서, 기숙사비 영수증 등이 상황에 따른 입증 서류 예시다. 정부24 안내에서 인터넷 신청은 본인 신청 경로다.",
+      "vi": "",
+      "tags": "본인 체류지 변경신고 구비서류 첨부 서류 여권 등록증 인터넷 숙소제공 계약서 giấy tờ hộ chiếu"
+    },
+    {
+      "id": "gov24-proxy",
+      "source": "gov24",
+      "locator": "제출 서류 · 대리 신청",
+      "title": "정부24 외국인 체류지변경신고",
+      "text": "대리 접수를 검토할 때는 신청자와 대리인의 적용 요건을 접수기관에 확인한다. 정부24는 대리 신청의 자료로 위임장, 대리인 신분증, 관계를 확인할 서류, 체류지 입증 서류를 안내한다.",
+      "vi": "",
+      "tags": "대리 위임장 가족관계 대리인 신분증 ngoại kiều ủy quyền"
+    },
+    {
+      "id": "form34vi-p1",
+      "source": "form34vi",
+      "locator": "별지 제34호의6 · PDF 1쪽",
+      "title": "체류지 변경신고서 한·베 병기",
+      "text": "군청·읍면 제출용 베트남어 병기 체류지 변경신고서다. 바뀐 국내 주소, 거주 형태, 신고일, 신고인 서명과 신원·연락 정보를 기재한다. 작성 언어는 한글 또는 영문이다.",
+      "vi": "Mẫu số 34-6 có tiếng Việt. Điền địa chỉ mới, loại hình cư trú, ngày khai báo và chữ ký. Điền bằng tiếng Hàn hoặc tiếng Anh.",
+      "tags": "베트남어 한베 체류지 변경신고서 군청 읍면 주소 입력 신고일 서명 đơn xin thay đổi nơi lưu trú"
+    },
+    {
+      "id": "form34-p1",
+      "source": "form34",
+      "locator": "민원서식 · 통합신청서 PDF 1쪽",
+      "title": "통합신청서(신고서) 별지 제34호",
+      "text": "출입국관서용 통합신청서는 신고 유형에서 체류지 변경신고를 선택하고 국내 주소, 연락처, 신청일과 신청인 서명을 적는다. 실제 신청에 필요한 신원 정보는 당사자가 확인한다.",
+      "vi": "",
+      "tags": "통합신청서 출입국관서 34호 신고란 하이코리아 주소 mẫu đơn tổng hợp"
+    },
+    {
+      "id": "lease-ko-p1",
+      "source": "lease-ko",
+      "locator": "PDF 1쪽 · 임차주택 표시 및 제1·2조",
+      "title": "주택임대차 표준계약서",
+      "text": "표준계약서에서 임차주택의 도로명주소와 동·층·호, 보증금, 월 차임, 관리비, 인도일과 임대차기간을 확인한다. 체류지 증빙과 월 부담을 검토할 때 각각 해당 값의 근거로 사용한다.",
+      "vi": "",
+      "tags": "직접 임차 임대차 계약서 주택 표준계약서 주소 동층호 보증금 월세 차임 관리비 계약기간"
+    },
+    {
+      "id": "lease-ko-p3",
+      "source": "lease-ko",
+      "locator": "PDF 3쪽 · 계약 당사자 서명",
+      "title": "주택임대차 표준계약서",
+      "text": "표준계약서의 당사자 정보 및 서명·날인 부분을 확인한다. 문서 텍스트에서 읽은 사항은 원본과 대조한 뒤 계약 정보를 사용한다.",
+      "vi": "",
+      "tags": "계약 확정 임대인 임차인 서명 날인 확인 서류"
+    },
+    {
+      "id": "lease-vi-p1p2",
+      "source": "lease-vi",
+      "locator": "베트남어 PDF 1~2쪽 · 주소·임대차 금액과 기간",
+      "title": "주택임대차 표준계약서 베트남어 번역본",
+      "text": "법무부의 한·베 병기 표준계약서는 임차주택 주소, 보증금, 월세, 관리비, 임대차기간의 용어를 대응시켜 설명할 수 있다.",
+      "vi": "Bản mẫu của Bộ Tư pháp giúp đối chiếu địa chỉ, tiền đặt cọc, tiền thuê, phí quản lý và thời hạn thuê bằng tiếng Việt.",
+      "tags": "베트남어 주택임대차 표준계약서 월세 번역 hợp đồng thuê nhà địa chỉ tiền đặt cọc phí quản lý"
+    },
+    {
+      "id": "stay-p1",
+      "source": "stay",
+      "locator": "거주숙소제공사실확인서(영문병기) · PDF 1쪽",
+      "title": "거주·숙소제공확인서",
+      "text": "고용주 등이 숙소를 제공한다면 숙소 주소, 제공자, 제공자와 근로자의 관계, 소유·임차 여부, 거주 형태, 제공 시작일과 제공자 서명·직인을 확인한다. 확인서의 안내에 따라 제공자의 소유·임차 증빙도 준비할 수 있다.",
+      "vi": "Nếu công ty cung cấp chỗ ở, hãy kiểm tra địa chỉ, ngày bắt đầu, chữ ký hoặc con dấu của bên cung cấp và giấy tờ chứng minh quyền sử dụng chỗ ở.",
+      "tags": "회사 숙소 제공 고용주 기숙사 거주숙소제공 확인서 입주 시작일 체류지 증빙 giấy xác nhận cung cấp chỗ ở ký túc xá"
+    },
+    {
+      "id": "dorm-forms",
+      "source": "dorm",
+      "locator": "제5·6조 및 별지 제1~2호",
+      "title": "서천군 농공단지 근로자 기숙사 설치 및 운영 조례",
+      "text": "서천군 농공단지 근로자 기숙사 조례에는 입사자 추천 명단과 입사 원서가 있다. 조례의 근무지와 서천군 주민등록 요건을 확인하며, 외국인등록 근로자 적용 여부와 공실은 군에 확인해야 한다.",
+      "vi": "",
+      "tags": "서천군 농공단지 기숙사 입사 모집 입주 신청 자격 추천 명단"
+    }
+  ],
+  "counts": {
+    "months": 57,
+    "areas": 13,
+    "apartments": 29,
+    "businesses": 258,
+    "forms": 6
+  }
+}
